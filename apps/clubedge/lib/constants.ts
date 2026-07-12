@@ -1,4 +1,4 @@
-export const APP_NAME = 'Supabase'
+export const APP_NAME = 'Clubedge'
 export const DEFAULT_META_DESCRIPTION =
   'Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.'
 export const IS_PROD = process.env.NEXT_PUBLIC_VERCEL_ENV === 'production'

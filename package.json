@@ -18,6 +18,7 @@
     "dev:studio-local": "pnpm setup:cli && NODE_ENV=test pnpm --prefix ./apps/studio dev",
     "dev:docs": "turbo run dev --filter=docs --parallel",
     "dev:www": "turbo run dev --filter=www --parallel",
+    "dev:clubedge": "turbo run dev --filter=clubedge --parallel",
     "dev:design-system": "turbo run dev --filter=design-system --parallel",
     "lint": "turbo run lint",
     "typecheck": "turbo --continue typecheck",

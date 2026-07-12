@@ -1,7 +1,7 @@
 {
-  "name": "www",
+  "name": "clubedge",
   "version": "0.0.3",
-  "description": "Supabase main website",
+  "description": "Clubedge main website",
   "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",

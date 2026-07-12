@@ -1,6 +1,25 @@
 @import 'config/tailwind.config.css';
 @import './../../../packages/ui/build/css/themes/faux-classic-dark.css';
 
+/* Clubedge brand palette: override the default green brand tokens with blue.
+   Applied across every theme selector so the blue brand shows in all modes. */
+:root,
+.dark,
+.light,
+[data-theme='dark'],
+[data-theme='light'],
+[data-theme='classic-dark'],
+[data-theme='faux-classic-dark'] {
+  --brand-link: 213deg 94% 52%;
+  --brand-default: 213deg 90% 58%;
+  --brand-button: 213deg 94% 48%;
+  --brand-600: 213deg 90% 72%;
+  --brand-500: 213deg 94% 42%;
+  --brand-400: 213deg 94% 30%;
+  --brand-300: 213deg 94% 22%;
+  --brand-200: 213deg 90% 12%;
+}
+
 @source '../_blog/*.mdx';
 @source '../components/**/*.tsx';
 @source '../data/**/*.tsx';
@@ -238,7 +257,7 @@ h6:not(.overwrite) {
 }
 
 .heading-gradient-brand {
-  @apply text-[#3ECF8E00] bg-clip-text bg-linear-to-b from-brand to-brand/80;
+  @apply text-[#2f8fff00] bg-clip-text bg-linear-to-b from-brand to-brand/80;
 }
 
 .toc-animate {
