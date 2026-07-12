@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Geist", "Geist Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", "Geist Mono Fallback", ui-monospace, monospace;
+
+  /* Neutrals (dark surface) */
+  --color-background: #0b0f14;
+  --color-surface: #11161d;
+  --color-surface-2: #161c25;
+  --color-border: #232b36;
+  --color-foreground: #ecf1f6;
+  --color-muted: #8a97a6;
+
+  /* Brand blue (replaces Supabase green) */
+  --color-brand: #2f8fff;
+  --color-brand-strong: #1f6fe5;
+  --color-brand-soft: #123a63;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.brand-grid {
+  background-image: linear-gradient(var(--color-border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-border) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 40%, transparent 100%);
+}
