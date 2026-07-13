@@ -68,4 +68,17 @@ const rewrites = [
   { source: '/feed.xml', destination: `/rss.xml` },
 ]
 
-module.exports = rewrites
+// Some rewrite destinations are built from env vars (studio, docs, ui-library,
+// design-system, reference-docs) that are only defined in the hosted
+// deployment. When running locally those are `undefined`, producing invalid
+// destinations like "undefined/:path*" that make Next.js throw
+// "Invalid rewrites found". Filter out any rewrite whose destination isn't a
+// valid path/URL so local dev works without those env vars.
+const isValidDestination = (destination) =>
+  typeof destination === 'string' &&
+  !destination.includes('undefined') &&
+  (destination.startsWith('/') ||
+    destination.startsWith('http://') ||
+    destination.startsWith('https://'))
+
+module.exports = rewrites.filter((rewrite) => isValidDestination(rewrite.destination))
