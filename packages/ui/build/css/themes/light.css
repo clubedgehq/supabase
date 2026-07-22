@@ -38,13 +38,13 @@
   --secondary-default: 247.8deg 100% 70%;
   --secondary-400: 248.3deg 54.5% 25.9%;
   --secondary-200: 248deg 53.6% 11%;
-  --brand-link: 153.4deg 86.5% 28.3%;
-  --brand-default: 152.9deg 60% 52.9%;
-  --brand-600: 156.5deg 86.5% 26.1%;
-  --brand-500: 155.3deg 78.4% 40%;
-  --brand-400: 151.3deg 66.9% 66.9%;
-  --brand-300: 147.5deg 72% 80.4%;
-  --brand-200: 147.6deg 72.5% 90%;
+  --brand-link: 198deg 96% 38.6%;
+  --brand-default: 198deg 96% 45%;
+  --brand-600: 198deg 96% 30%;
+  --brand-500: 198deg 96% 50%;
+  --brand-400: 198deg 96% 70%;
+  --brand-300: 198deg 96% 80%;
+  --brand-200: 198deg 96% 90%;
   /* --warning-default: 30.3deg 80.3% 47.8%; */
   --warning-600: 30.3deg 80.3% 47.8%;
   --warning-500: 36.3deg 85.7% 67.1%;
