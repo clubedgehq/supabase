@@ -16,7 +16,6 @@ import {
 import Avatar from '~/components/Avatar'
 import BlogCollapsible from '~/components/Blog/BlogCollapsible'
 import DeveloperGrowthChart from '~/components/Charts/DeveloperGrowthChart'
-import Chart from '~/components/Charts/PGCharts'
 import CodeBlock from '~/components/CodeBlock/CodeBlock'
 import { NamedCodeBlock } from '~/components/CodeTabs'
 import ImageFadeStack from '~/components/ImageFadeStack'
@@ -79,9 +78,6 @@ export default function mdxComponents(type?: 'blog' | 'lp' | undefined) {
     Badge,
     Quote,
     Avatar,
-    PGChart: (props: any) => {
-      return <Chart {...props} />
-    },
     DeveloperGrowthChart,
     pre: (props: any) => {
       if (props.className !== ignoreClass) {
