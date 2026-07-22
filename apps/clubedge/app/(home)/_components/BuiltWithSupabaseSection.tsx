@@ -109,7 +109,7 @@ export function BuiltWithSupabaseSection() {
           <span className="text-foreground">with ready-made guides</span>
         </h3>
         <Link
-          href="#"
+          href="/docs/guides/examples"
           className="text-sm text-foreground-light hover:text-foreground underline"
         >
           View all guides
