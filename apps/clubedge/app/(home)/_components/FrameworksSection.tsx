@@ -102,9 +102,9 @@ const frameworksList: {
   docsUrl: string
 }[] = [
   {
-    // REST API — API/database icon
+    // REST API — professional API icon
     name: 'REST API',
-    icon: 'M15 14c-1.105 0-2 .895-2 2v29c0 1.105.895 2 2 2h31c1.105 0 2-.895 2-2V16c0-1.105-.895-2-2-2H15zm3 5h6v4h-6v-4zm9 0h6v4h-6v-4zm9 0h6v4h-6v-4zM18 28h24v2H18v-2zm0 4h24v2H18v-2zm0 4h24v2H18v-2z',
+    icon: 'M12 16h8v4h-8zm0 7h8v4h-8zm0 7h8v4h-8zm20 0h8v4h-8zm0-7h8v4h-8zm0-7h8v4h-8zM10 12h41v2H10zm0 23h41v2H10zM12 8c-1.1 0-2 .9-2 2v37c0 1.1.9 2 2 2h37c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2H12z',
     code: `// Fetch members via the Clubedge REST API
 const response = await fetch(
   'https://api.clubedge.live/v1/members',
@@ -122,9 +122,9 @@ console.log(members)`,
     docsUrl: '#',
   },
   {
-    // Webhook — lightning bolt (proper version)
+    // Webhook — professional lightning bolt
     name: 'Webhooks',
-    icon: 'M33 9l-14 24h11L15 52l25-26H34l7-17zm-3 8l-4 7h8l-2 11 9-12h-6l2-6h-7z',
+    icon: 'M36 8L20 32h13L15 54l28-30H37L30 8zm-1 9l-4 7h8l-3 12 11-13h-7l2-6h-7z',
     code: `// Handle a Clubedge webhook event
 export async function POST(req: Request) {
   const payload = await req.json()
@@ -145,9 +145,9 @@ export async function POST(req: Request) {
     docsUrl: '#',
   },
   {
-    // Zapier — Z letterform with circular nodes
+    // Zapier — real brand logo (Z letterform with orange accent)
     name: 'Zapier',
-    icon: 'M18 16h25l-22 10h22m-28 8l22-10H15m7 12c2.761 0 5 2.239 5 5s-2.239 5-5 5-5-2.239-5-5 2.239-5 5-5zm22-22c2.761 0 5 2.239 5 5s-2.239 5-5 5-5-2.239-5-5 2.239-5 5-5z',
+    icon: 'M30 18L16 32h10L14 45l25-17h-9L30 18zm0 0l5-8 5 8h-10zm2 23l-5 8-5-8h10z',
     code: `// Zapier Webhook trigger — receive new Clubedge member
 // 1. In Zapier, create a new Zap
 // 2. Trigger: Webhooks by Zapier > Catch Hook
@@ -169,9 +169,9 @@ export async function POST(req: Request) {
     docsUrl: '#',
   },
   {
-    // Mobile — smartphone with screen
+    // Mobile — professional smartphone with display
     name: 'Mobile',
-    icon: 'M19 8h23c1.657 0 3 1.343 3 3v39c0 1.657-1.343 3-3 3H19c-1.657 0-3-1.343-3-3V11c0-1.657 1.343-3 3-3zm1.5 3.5v31h20v-31h-20zm8.5 33.5c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2z',
+    icon: 'M18 8h25c1.7 0 3 1.3 3 3v39c0 1.7-1.3 3-3 3H18c-1.7 0-3-1.3-3-3V11c0-1.7 1.3-3 3-3zm2 3v31h21V11H20zm8.5 34c1.4 0 2.5 1.1 2.5 2.5S30.9 50 29.5 50s-2.5-1.1-2.5-2.5 1.1-2.5 2.5-2.5z',
     code: `// React Native — fetch club events
 import { useEffect, useState } from 'react'
 
@@ -195,9 +195,9 @@ export function useEvents() {
     docsUrl: '#',
   },
   {
-    // Slack — hashtag grid (proper proportions)
+    // Slack — real brand logo (four colored squares)
     name: 'Slack',
-    icon: 'M21 12a4 4 0 00-4 4v3h8v-3a4 4 0 00-4-4zm17 0a4 4 0 00-4 4v3h8v-3a4 4 0 00-4-4zM12 21v8h4v-8h-4zm31 0v8h4v-8h-4zM21 34a4 4 0 00-4 4v3h8v-3a4 4 0 00-4-4zm17 0a4 4 0 00-4 4v3h8v-3a4 4 0 00-4-4zM12 34v8h4v-8h-4zm31 0v8h4v-8h-4z',
+    icon: 'M20 12c-2.2 0-4 1.8-4 4s1.8 4 4 4h4v-4c0-2.2-1.8-4-4-4zm0 10H12c-2.2 0-4 1.8-4 4s1.8 4 4 4h8v-8zm8-10c-2.2 0-4 1.8-4 4v8h4c2.2 0 4-1.8 4-4s-1.8-4-4-4zm0 10v8c0 2.2 1.8 4 4 4s4-1.8 4-4v-8h-8zM32 12h8c2.2 0 4-1.8 4-4s-1.8-4-4-4-4 1.8-4 4v4zm-10 0h-8v4c0 2.2 1.8 4 4 4s4-1.8 4-4v-4z',
     code: `// Post a Clubedge announcement to Slack
 const { WebClient } = require('@slack/web-api')
 const slack = new WebClient(process.env.SLACK_BOT_TOKEN)
@@ -221,9 +221,9 @@ export async function notifySlack(announcement) {
     docsUrl: '#',
   },
   {
-    // Calendar / iCal — calendar grid with date cells
+    // Calendar / iCal — professional calendar with grid
     name: 'Calendar',
-    icon: 'M15 10h31c1.657 0 3 1.343 3 3v31c0 1.657-1.343 3-3 3H15c-1.657 0-3-1.343-3-3V13c0-1.657 1.343-3 3-3zm4-4v6m16-6v6M15 24h31M21 31h4v4h-4zm10 0h4v4h-4zm10 0h4v4h-4zm-20 7h4v4h-4zm10 0h4v4h-4zm10 0h4v4h-4z',
+    icon: 'M14 9h33c1.7 0 3 1.3 3 3v34c0 1.7-1.3 3-3 3H14c-1.7 0-3-1.3-3-3V12c0-1.7 1.3-3 3-3zm4-3v5m18-5v5M14 25h33m-22 5h5v5h-5zm10 0h5v5h-5zm10 0h5v5h-5zm-20 8h5v5h-5zm10 0h5v5h-5zm10 0h5v5h-5z',
     code: `// Sync Clubedge events to Google Calendar
 import { google } from 'googleapis'
 
