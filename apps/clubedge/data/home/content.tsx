@@ -1,4 +1,3 @@
-import VideoWithHighlights from 'components/VideoWithHighlights'
 import MainProducts from 'data/MainProducts'
 import { useSendTelemetryEvent } from 'lib/telemetry'
 import Link from 'next/link'
@@ -78,18 +77,13 @@ export default () => {
         {
           label: 'Member Management',
           panel: ({ isDark }: { isDark: boolean }) => (
-            <VideoWithHighlights
-              video={{
-                title: 'Clubedge member management',
-                sources: [
-                  {
-                    src: `https://xguihxuzqibwxjnimxev.supabase.co/storage/v1/object/public/videos/marketing/website/supabase-table-editor${isDark ? '' : '-light'}`,
-                    type: 'video/mp4',
-                  },
-                ],
-                poster: `/images/index/dashboard/supabase-table-editor${isDark ? '' : '-light'}.png`,
-              }}
-            />
+            <div className={`w-full h-full flex items-center justify-center bg-gradient-to-br ${isDark ? 'from-slate-900 to-slate-800' : 'from-slate-100 to-slate-200'}`}>
+              <div className="text-center space-y-4 p-8">
+                <div className="text-4xl">👥</div>
+                <h3 className="text-lg font-semibold text-foreground">Member Management</h3>
+                <p className="text-sm text-foreground-lighter">Manage profiles, track attendance, and automate member communications</p>
+              </div>
+            </div>
           ),
           highlights: [
             {
@@ -111,18 +105,13 @@ export default () => {
         {
           label: 'Events & Activities',
           panel: ({ isDark }: { isDark: boolean }) => (
-            <VideoWithHighlights
-              video={{
-                title: 'Clubedge events management',
-                sources: [
-                  {
-                    src: `https://xguihxuzqibwxjnimxev.supabase.co/storage/v1/object/public/videos/marketing/website/supabase-sql-editor${isDark ? '' : '-light'}`,
-                    type: 'video/mp4',
-                  },
-                ],
-                poster: `/images/index/dashboard/supabase-sql-editor${isDark ? '' : '-light'}.png`,
-              }}
-            />
+            <div className={`w-full h-full flex items-center justify-center bg-gradient-to-br ${isDark ? 'from-blue-900 to-blue-800' : 'from-blue-100 to-blue-200'}`}>
+              <div className="text-center space-y-4 p-8">
+                <div className="text-4xl">📅</div>
+                <h3 className="text-lg font-semibold text-foreground">Events & Activities</h3>
+                <p className="text-sm text-foreground-lighter">Schedule events, manage RSVPs, and track attendance with QR codes</p>
+              </div>
+            </div>
           ),
           highlights: [
             { label: 'Visual calendar interface', link: 'https://clubedge.live' },
@@ -143,18 +132,13 @@ export default () => {
         {
           label: 'Analytics & Edgey AI',
           panel: ({ isDark }: { isDark: boolean }) => (
-            <VideoWithHighlights
-              video={{
-                title: 'Clubedge analytics and AI',
-                sources: [
-                  {
-                    src: `https://xguihxuzqibwxjnimxev.supabase.co/storage/v1/object/public/videos/marketing/website/supabase-rls${isDark ? '' : '-light'}`,
-                    type: 'video/mp4',
-                  },
-                ],
-                poster: `/images/index/dashboard/supabase-rls${isDark ? '' : '-light'}.png`,
-              }}
-            />
+            <div className={`w-full h-full flex items-center justify-center bg-gradient-to-br ${isDark ? 'from-purple-900 to-purple-800' : 'from-purple-100 to-purple-200'}`}>
+              <div className="text-center space-y-4 p-8">
+                <div className="text-4xl">📊✨</div>
+                <h3 className="text-lg font-semibold text-foreground">Analytics & Edgey AI</h3>
+                <p className="text-sm text-foreground-lighter">Track engagement, get AI insights, and automate workflows</p>
+              </div>
+            </div>
           ),
           highlights: [
             { label: 'Engagement tracking', link: 'https://clubedge.live' },
