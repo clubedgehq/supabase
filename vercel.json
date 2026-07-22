@@ -1,0 +1,5 @@
+{
+  "buildCommand": "turbo run build --filter=clubedge",
+  "devCommand": "turbo run dev --filter=clubedge --parallel",
+  "installCommand": "pnpm install --frozen-lockfile"
+}
