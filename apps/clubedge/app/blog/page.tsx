@@ -9,13 +9,13 @@ import { breadcrumbListSchema, serializeJsonLd } from '@/lib/json-ld'
 import { getSortedPosts } from '@/lib/posts'
 
 export const metadata: Metadata = {
-  title: 'Supabase Blog: the Postgres development platform',
-  description: 'Get all your Supabase News on the Supabase blog.',
+  title: 'Clubedge Blog: Community Management Insights',
+  description: 'Tips, guides and news for club and association leaders using Clubedge.',
   openGraph: {
-    title: 'Supabase Blog: the Postgres development platform',
-    description: 'Get all your Supabase News on the Supabase blog.',
-    url: 'https://supabase.com/blog',
-    images: [{ url: 'https://supabase.com/images/og/supabase-og.png' }],
+    title: 'Clubedge Blog: Community Management Insights',
+    description: 'Tips, guides and news for club and association leaders using Clubedge.',
+    url: 'https://clubedge.live/blog',
+    images: [{ url: 'https://clubedge.live/images/og/clubedge-og.png' }],
   },
 }
 

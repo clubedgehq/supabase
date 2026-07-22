@@ -9,27 +9,27 @@ import type { Metadata, Viewport } from 'next'
 import Providers from './providers'
 import { APP_NAME, DEFAULT_META_DESCRIPTION } from '@/lib/constants'
 
-const site_title = `${APP_NAME} | The Open Source Firebase Alternative`
+const site_title = `${APP_NAME} | The All-in-One Platform for Clubs & Associations`
 
 export const metadata: Metadata = {
   title: site_title,
   description: DEFAULT_META_DESCRIPTION,
   openGraph: {
     type: 'website',
-    url: 'https://supabase.com/',
-    siteName: 'Supabase',
+    url: 'https://clubedge.live/',
+    siteName: 'Clubedge',
     images: [
       {
-        url: 'https://supabase.com/images/og/supabase-og.png',
-        width: 800,
-        height: 600,
-        alt: 'Supabase Og Image',
+        url: 'https://clubedge.live/images/og/clubedge-og.png',
+        width: 1200,
+        height: 630,
+        alt: 'Clubedge — The All-in-One Platform for Clubs & Associations',
       },
     ],
   },
   twitter: {
-    creator: '@supabase',
-    site: '@supabase',
+    creator: '@clubedgehq',
+    site: '@clubedgehq',
     card: 'summary_large_image',
   },
   icons: {
