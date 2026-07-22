@@ -10,7 +10,7 @@ import { usePathname } from 'next/navigation'
 import React, { useState } from 'react'
 import { useWindowSize } from 'react-use'
 import { Button, buttonVariants, cn } from 'ui'
-import { AuthenticatedDropdownMenu } from 'ui-patterns/AuthenticatedDropdownMenu'
+
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -20,7 +20,6 @@ import {
   NavigationMenuTrigger,
 } from 'ui/src/components/shadcn/ui/navigation-menu'
 
-import GitHubButton from './GitHubButton'
 import HamburgerButton from './HamburgerMenu'
 import MenuItem from './MenuItem'
 import { MobileMenu } from './MobileMenu'
@@ -161,7 +160,6 @@ const Nav = ({ hideNavbar, stickyNavbar = true }: Props) => {
                   )}
                 >
                   <DevToolbarTrigger />
-                  <GitHubButton />
                   {isLoggedIn ? (
                     <>
                       <Button className="hidden lg:block" asChild>
@@ -171,30 +169,17 @@ const Nav = ({ hideNavbar, stickyNavbar = true }: Props) => {
                     </>
                   ) : (
                     <>
-                      <Button variant="default" className="hidden lg:block" asChild>
-                        <Link
-                          href="https://supabase.com/dashboard"
-                          onClick={() =>
-                            sendTelemetryEvent({
-                              action: 'sign_in_button_clicked',
-                              properties: { buttonLocation: 'Header Nav' },
-                            })
-                          }
-                        >
-                          Sign in
-                        </Link>
-                      </Button>
                       <Button className="hidden lg:block" asChild>
                         <Link
-                          href="https://supabase.com/dashboard/sign-up"
+                          href="#"
                           onClick={() =>
                             sendTelemetryEvent({
-                              action: 'start_project_button_clicked',
+                              action: 'request_demo_button_clicked',
                               properties: { buttonLocation: 'Header Nav' },
                             })
                           }
                         >
-                          Start your project
+                          Request a demo
                         </Link>
                       </Button>
                     </>
