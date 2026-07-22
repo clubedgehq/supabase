@@ -14,26 +14,26 @@ export function Hero() {
       <div className="flex flex-col gap-6 lg:gap-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-end">
           <h1 className="text-foreground text-4xl sm:text-5xl sm:leading-none">
-            <span className="block">Build in a weekend</span>
-            <span className="text-brand block">Scale to millions</span>
+            <span className="block">Connect with Your Club</span>
+            <span className="text-brand block">Build Your Community</span>
           </h1>
           <p className="text-foreground-lighter text-balance">
-            Start your project with a Postgres database. Add Authentication, Data APIs, Edge
-            Functions, Realtime Data, Storage, and Vector embeddings.
+            Club Edge empowers communities to collaborate, connect, and grow together. 
+            Create meaningful experiences with powerful tools built for modern clubs and organizations.
           </p>
         </div>
         <div className="flex items-center gap-2">
           <Button asChild size="medium">
             <Link
-              href="https://supabase.com/dashboard"
+              href="https://clubedge.co/join"
               onClick={() =>
                 sendTelemetryEvent({
-                  action: 'start_project_button_clicked',
+                  action: 'join_clubedge_button_clicked',
                   properties: { buttonLocation: 'Homepage Hero' },
                 })
               }
             >
-              Start your project
+              Join Club Edge
             </Link>
           </Button>
           <Button asChild size="medium" variant="default">
@@ -41,12 +41,12 @@ export function Hero() {
               href="/contact/sales"
               onClick={() =>
                 sendTelemetryEvent({
-                  action: 'request_demo_button_clicked',
+                  action: 'learn_more_button_clicked',
                   properties: { buttonLocation: 'Homepage Hero' },
                 })
               }
             >
-              Request a demo
+              Learn more
             </Link>
           </Button>
         </div>
