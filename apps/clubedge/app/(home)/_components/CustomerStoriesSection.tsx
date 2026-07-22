@@ -15,9 +15,10 @@ const customerStories = [
     quote:
       'Before Clubedge, we were managing 400 members across five spreadsheets. Now everything is in one place — renewals, events, attendance — and our volunteers actually enjoy admin work.',
     author: 'Maria Santos, Club Administrator',
-    bgColor: '#1a3a5c',
-    bgGradient: 'linear-gradient(to bottom left, #1e4976 0%, #0f2540 100%)',
-    dimBgColor: '#152d47',
+    bgColor: 'color(display-p3 0.980392 0.364706 0.098039)',
+    bgGradient:
+      'linear-gradient(to bottom left, color(display-p3 0.980392 0.364706 0.098039 / 1) 0%, color(display-p3 0.980392 0.364706 0.098039 / 0.9) 100%)',
+    dimBgColor: 'color(display-p3 0.980392 0.364706 0.098039 / 0.9)',
     textColor: 'light' as 'light' | 'dark',
   },
   {
@@ -27,9 +28,10 @@ const customerStories = [
     quote:
       'Clubedge gave us QR check-in, automated reminders, and a clean registration flow. Our event attendance improved almost immediately after switching.',
     author: 'James Okafor, President',
-    bgColor: '#2d1a5c',
-    bgGradient: 'linear-gradient(to bottom left, #3a2070 0%, #1a0f40 100%)',
-    dimBgColor: '#251550',
+    bgColor: 'color(display-p3 0.275 0.306 0.8)',
+    bgGradient:
+      'linear-gradient(to bottom left, color(display-p3 0.275 0.306 0.8 / 1) 0%, color(display-p3 0.118 0.176 0.769 / 1) 100%)',
+    dimBgColor: 'color(display-p3 0.118 0.176 0.769 / 1)',
     textColor: 'light' as 'light' | 'dark',
   },
   {
@@ -39,9 +41,9 @@ const customerStories = [
     quote:
       "We were paying for a form tool, an email tool, and a file storage tool separately. Clubedge replaced all three and cost us less. The time we save each week is significant.",
     author: 'Priya Nair, Operations Lead',
-    bgColor: '#1a3d2b',
-    bgGradient: 'linear-gradient(to bottom left, #1e4d35 0%, #0f2518 100%)',
-    dimBgColor: '#152d20',
+    bgColor: '#222222',
+    bgGradient: 'linear-gradient(to bottom left, #2a2a2a 0%, #181818 100%)',
+    dimBgColor: '#1e1e1e',
     textColor: 'light' as 'light' | 'dark',
   },
   {
@@ -51,9 +53,10 @@ const customerStories = [
     quote:
       'Edgey helped us set up an automated weekly summary for our members. It pulls upcoming events, new files, and announcements. Our members love the consistency.',
     author: 'Lena Fischer, Coordinator',
-    bgColor: '#3d2a1a',
-    bgGradient: 'linear-gradient(to bottom left, #4d3520 0%, #25180f 100%)',
-    dimBgColor: '#2d2015',
+    bgColor: 'color(display-p3 1 0.533 0)',
+    bgGradient:
+      'linear-gradient(to bottom left, color(display-p3 1 0.533 0 / 1) 0%, color(display-p3 0.7 0.373 0 / 1) 100%)',
+    dimBgColor: 'color(display-p3 0.7 0.373 0 / 1)',
     textColor: 'light' as 'light' | 'dark',
   },
   {
@@ -63,9 +66,9 @@ const customerStories = [
     quote:
       "The member onboarding flow in Clubedge is exactly what we needed. New members fill in a form, get assigned to a group, and receive their welcome pack automatically. It's seamless.",
     author: 'Thomas Eriksson, Secretary',
-    bgColor: '#1a3a4d',
-    bgGradient: 'linear-gradient(to bottom left, #1e4a61 0%, #0f2535 100%)',
-    dimBgColor: '#15303d',
+    bgColor: '#000000',
+    bgGradient: 'linear-gradient(to bottom left, #0a0a0a 0%, #000000 100%)',
+    dimBgColor: '#080808',
     textColor: 'light' as 'light' | 'dark',
   },
 ]
