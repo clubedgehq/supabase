@@ -102,9 +102,9 @@ const frameworksList: {
   docsUrl: string
 }[] = [
   {
-    // REST API — two horizontal arrows (request/response)
+    // REST API — API/database icon
     name: 'REST API',
-    icon: 'M10 27h30l-6-6m6 6-6 6M51 34H21l6 6m-6-6 6-6',
+    icon: 'M15 14c-1.105 0-2 .895-2 2v29c0 1.105.895 2 2 2h31c1.105 0 2-.895 2-2V16c0-1.105-.895-2-2-2H15zm3 5h6v4h-6v-4zm9 0h6v4h-6v-4zm9 0h6v4h-6v-4zM18 28h24v2H18v-2zm0 4h24v2H18v-2zm0 4h24v2H18v-2z',
     code: `// Fetch members via the Clubedge REST API
 const response = await fetch(
   'https://api.clubedge.live/v1/members',
@@ -122,9 +122,9 @@ console.log(members)`,
     docsUrl: '#',
   },
   {
-    // Webhook — lightning bolt
+    // Webhook — lightning bolt (proper version)
     name: 'Webhooks',
-    icon: 'M35 9L20 32h14l-8 20 22-26H33z',
+    icon: 'M33 9l-14 24h11L15 52l25-26H34l7-17zm-3 8l-4 7h8l-2 11 9-12h-6l2-6h-7z',
     code: `// Handle a Clubedge webhook event
 export async function POST(req: Request) {
   const payload = await req.json()
@@ -145,9 +145,9 @@ export async function POST(req: Request) {
     docsUrl: '#',
   },
   {
-    // Zapier — Z letterform made of three lines
+    // Zapier — Z letterform with circular nodes
     name: 'Zapier',
-    icon: 'M13 16h35l-35 29h35M13 30.5h35',
+    icon: 'M18 16h25l-22 10h22m-28 8l22-10H15m7 12c2.761 0 5 2.239 5 5s-2.239 5-5 5-5-2.239-5-5 2.239-5 5-5zm22-22c2.761 0 5 2.239 5 5s-2.239 5-5 5-5-2.239-5-5 2.239-5 5-5z',
     code: `// Zapier Webhook trigger — receive new Clubedge member
 // 1. In Zapier, create a new Zap
 // 2. Trigger: Webhooks by Zapier > Catch Hook
@@ -169,9 +169,9 @@ export async function POST(req: Request) {
     docsUrl: '#',
   },
   {
-    // Mobile — phone outline with home button
+    // Mobile — smartphone with screen
     name: 'Mobile',
-    icon: 'M20 8h21a3 3 0 013 3v39a3 3 0 01-3 3H20a3 3 0 01-3-3V11a3 3 0 013-3zm10.5 40a1.5 1.5 0 100 3 1.5 1.5 0 000-3zM20 13h21v33H20z',
+    icon: 'M19 8h23c1.657 0 3 1.343 3 3v39c0 1.657-1.343 3-3 3H19c-1.657 0-3-1.343-3-3V11c0-1.657 1.343-3 3-3zm1.5 3.5v31h20v-31h-20zm8.5 33.5c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2z',
     code: `// React Native — fetch club events
 import { useEffect, useState } from 'react'
 
@@ -195,9 +195,9 @@ export function useEvents() {
     docsUrl: '#',
   },
   {
-    // Slack — four rounded squares arranged in a hashtag/app grid
+    // Slack — hashtag grid (proper proportions)
     name: 'Slack',
-    icon: 'M22 13a4 4 0 00-4 4v4h8v-4a4 4 0 00-4-4zm17 0a4 4 0 00-4 4v4h8v-4a4 4 0 00-4-4zM13 22v8h4v-8h-4zm31 0v8h4v-8h-4zM22 35a4 4 0 00-4 4v4h8v-4a4 4 0 00-4-4zm17 0a4 4 0 00-4 4v4h8v-4a4 4 0 00-4-4zM13 35v8h4v-8h-4zm31 0v8h4v-8h-4z',
+    icon: 'M21 12a4 4 0 00-4 4v3h8v-3a4 4 0 00-4-4zm17 0a4 4 0 00-4 4v3h8v-3a4 4 0 00-4-4zM12 21v8h4v-8h-4zm31 0v8h4v-8h-4zM21 34a4 4 0 00-4 4v3h8v-3a4 4 0 00-4-4zm17 0a4 4 0 00-4 4v3h8v-3a4 4 0 00-4-4zM12 34v8h4v-8h-4zm31 0v8h4v-8h-4z',
     code: `// Post a Clubedge announcement to Slack
 const { WebClient } = require('@slack/web-api')
 const slack = new WebClient(process.env.SLACK_BOT_TOKEN)
@@ -221,9 +221,9 @@ export async function notifySlack(announcement) {
     docsUrl: '#',
   },
   {
-    // Calendar / iCal — square with two tab notches and grid lines
+    // Calendar / iCal — calendar grid with date cells
     name: 'Calendar',
-    icon: 'M14 20h33v27H14zm8-8v8m17-8v8M14 29h33M23 37h5v5h-5zm10 0h5v5h-5z',
+    icon: 'M15 10h31c1.657 0 3 1.343 3 3v31c0 1.657-1.343 3-3 3H15c-1.657 0-3-1.343-3-3V13c0-1.657 1.343-3 3-3zm4-4v6m16-6v6M15 24h31M21 31h4v4h-4zm10 0h4v4h-4zm10 0h4v4h-4zm-20 7h4v4h-4zm10 0h4v4h-4zm10 0h4v4h-4z',
     code: `// Sync Clubedge events to Google Calendar
 import { google } from 'googleapis'
 
