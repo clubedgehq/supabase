@@ -157,7 +157,7 @@ const Footer = (props: Props) => {
               </a>
 
               <a
-                href="https://facebook.com/clubedgeso"
+                href="https://facebook.com/clubedge"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground-lighter hover:text-foreground transition"

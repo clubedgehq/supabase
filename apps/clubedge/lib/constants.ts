@@ -1,6 +1,6 @@
-export const APP_NAME = 'Supabase'
+export const APP_NAME = 'Clubedge'
 export const DEFAULT_META_DESCRIPTION =
-  'Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.'
+  'Clubedge centralizes members, events, forms, files, announcements, analytics, automations and Edgey, your AI assistant, in a single modern platform.'
 export const IS_PROD = process.env.NEXT_PUBLIC_VERCEL_ENV === 'production'
 export const IS_PREVIEW = process.env.NEXT_PUBLIC_VERCEL_ENV === 'preview'
 export const API_URL = process.env.NEXT_PUBLIC_API_URL!
@@ -27,7 +27,7 @@ export enum PRODUCT_SHORTNAMES {
 
 export const SITE_ORIGIN =
   process.env.NEXT_PUBLIC_VERCEL_ENV === 'production'
-    ? 'https://supabase.com'
+    ? 'https://clubedge.live'
     : process.env.NEXT_PUBLIC_VERCEL_BRANCH_URL
       ? `https://${process.env.NEXT_PUBLIC_VERCEL_BRANCH_URL}`
       : 'http://localhost:3000'
@@ -53,6 +53,6 @@ export const LW15_TWEET_TEXT =
   'Launch Week 15 is just around the corner at @supabase. \nClaim your ticket and stay tuned for all the announcements! \n#launchweek'
 export const LW15_URL = `${SITE_ORIGIN}/launch-week`
 
-export const SITE_NAME = 'Supabase'
+export const SITE_NAME = 'Clubedge'
 
 export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? ''
