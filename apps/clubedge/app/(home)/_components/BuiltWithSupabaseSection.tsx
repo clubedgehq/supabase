@@ -105,14 +105,14 @@ export function BuiltWithSupabaseSection() {
       {/* Header row */}
       <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
         <h3 className="text-2xl md:text-4xl text-foreground-lighter max-w-xl">
-          Kickstart your next project <br />
-          <span className="text-foreground">with production ready templates</span>
+          Get your club up and running <br />
+          <span className="text-foreground">with ready-made guides</span>
         </h3>
         <Link
-          href="/docs/guides/examples"
+          href="#"
           className="text-sm text-foreground-light hover:text-foreground underline"
         >
-          View all examples
+          View all guides
         </Link>
       </div>
 
@@ -125,9 +125,7 @@ export function BuiltWithSupabaseSection() {
             return (
               <Link
                 key={example.title}
-                href={example.repo_url ?? '#'}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
                 className="group flex flex-col bg-surface-75 border border-border rounded-lg overflow-hidden hover:bg-surface-100 transition-colors"
               >
                 <div className="px-6 py-5 flex flex-col gap-2.5">
@@ -172,9 +170,7 @@ export function BuiltWithSupabaseSection() {
             return (
               <Link
                 key={example.title}
-                href={example.repo_url ?? '#'}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
                 className="group flex flex-col bg-surface-75 border border-border rounded-lg px-6 py-10 hover:bg-surface-100 transition-colors"
               >
                 <div className="flex items-center gap-2 mb-3">

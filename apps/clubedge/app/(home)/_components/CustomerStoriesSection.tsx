@@ -9,110 +9,66 @@ import SectionContainer from '@/components/Layouts/SectionContainer'
 
 const customerStories = [
   {
-    name: 'Firecrawl',
-    logo: '/images/customers/logos/firecrawl.png',
-    icon: '/images/customers/logos/firecrawl-icon.svg',
-    tagline: 'Switched from Pinecone to Supabase Vector to boost efficiency and accuracy.',
+    name: 'City Athletics Club',
+    initial: 'CA',
+    tagline: 'Moved from spreadsheets to a fully digital member management system.',
     quote:
-      "We looked at the alternatives and chose Supabase because it's open source, it's simpler, and for all the ways we need to use it, Supabase has been just as performant — if not more performant — than the other vector databases.",
-    author: 'Caleb Peffer, CEO, Firecrawl',
-    authorImg: '/images/blog/avatars/caleb-peffer.jpg',
-    slug: 'firecrawl',
-    rawIcon: true,
-    iconFilter: 'brightness(0) invert(1)',
-    bgColor: 'color(display-p3 0.980392 0.364706 0.098039)',
-    bgGradient:
-      'linear-gradient(to bottom left, color(display-p3 0.980392 0.364706 0.098039 / 1) 0%, color(display-p3 0.980392 0.364706 0.098039 / 0.9) 100%)',
-    dimBgColor: 'color(display-p3 0.980392 0.364706 0.098039 / 0.9)',
+      'Before Clubedge, we were managing 400 members across five spreadsheets. Now everything is in one place — renewals, events, attendance — and our volunteers actually enjoy admin work.',
+    author: 'Maria Santos, Club Administrator',
+    bgColor: '#1a3a5c',
+    bgGradient: 'linear-gradient(to bottom left, #1e4976 0%, #0f2540 100%)',
+    dimBgColor: '#152d47',
     textColor: 'light' as 'light' | 'dark',
   },
   {
-    name: 'Rally',
-    logo: '/images/customers/logos/rally.png',
-    icon: '/images/customers/logos/rally-icon.svg',
-    rawIcon: true,
-    tagline: 'From first line of code to fully licensed fintech in three months.',
+    name: 'Westside Debate Society',
+    initial: 'WD',
+    tagline: 'Streamlined event registrations and reduced no-shows by 60%.',
     quote:
-      "We could not have built this company without Supabase. If I had to go and build all these components myself, we wouldn't even have launched.",
-    author: 'Thiago Peres, Founder & CTO, Rally',
-    authorImg: '/images/blog/avatars/thiago-peres-rally.jpeg',
-    slug: 'rally',
-    bgColor: 'color(display-p3 0.275 0.306 0.8)',
-    bgGradient:
-      'linear-gradient(to bottom left, color(display-p3 0.275 0.306 0.8 / 1) 0%, color(display-p3 0.118 0.176 0.769 / 1) 100%)',
-    dimBgColor: 'color(display-p3 0.118 0.176 0.769 / 1)',
+      'Clubedge gave us QR check-in, automated reminders, and a clean registration flow. Our event attendance improved almost immediately after switching.',
+    author: 'James Okafor, President',
+    bgColor: '#2d1a5c',
+    bgGradient: 'linear-gradient(to bottom left, #3a2070 0%, #1a0f40 100%)',
+    dimBgColor: '#251550',
     textColor: 'light' as 'light' | 'dark',
   },
   {
-    name: 'Hyper',
-    logo: '/images/customers/logos/hyper.png',
-    icon: '/images/customers/logos/hyper-icon.svg',
-    tagline: 'An AI-native marketing platform with agents that operate across the entire workflow.',
+    name: 'Northdale Community Association',
+    initial: 'NC',
+    tagline: 'Replaced three separate tools with a single unified platform.',
     quote:
-      'I will get on a podcast and talk about how much I love Supabase. With Supabase we can move fast and build things that delight our customers without having to worry about infrastructure.',
-    author: 'Elliot Fleck, Co-founder, Hyper',
-    authorImg: '/images/blog/avatars/elliot-fleck-hyper.jpeg',
-    slug: 'hyper',
-    bgColor: '#222222',
-    bgGradient: 'linear-gradient(to bottom left, #2a2a2a 0%, #181818 100%)',
-    dimBgColor: '#1e1e1e',
+      "We were paying for a form tool, an email tool, and a file storage tool separately. Clubedge replaced all three and cost us less. The time we save each week is significant.",
+    author: 'Priya Nair, Operations Lead',
+    bgColor: '#1a3d2b',
+    bgGradient: 'linear-gradient(to bottom left, #1e4d35 0%, #0f2518 100%)',
+    dimBgColor: '#152d20',
     textColor: 'light' as 'light' | 'dark',
   },
   {
-    name: 'E2B',
-    logo: '/images/customers/logos/e2b.png',
-    icon: '/images/customers/logos/e2b-icon.svg',
-    tagline: 'Secure, scalable execution of AI-generated code in the cloud.',
+    name: 'Summit Hiking Group',
+    initial: 'SH',
+    tagline: 'Used Edgey AI to automate their weekly member digest.',
     quote:
-      "Supabase empowers us to focus on innovation rather than infrastructure. It's the backbone of our platform, enabling scalability and seamless developer experiences.",
-    author: 'Vasek Mlejnsky, CEO, E2B',
-    authorImg: '/images/blog/avatars/vasek-mlejnsky.jpg',
-    slug: 'e2b',
-    rawIcon: true,
-    iconFilter: 'brightness(0) invert(1)',
-    bgColor: 'color(display-p3 1 0.533 0)',
-    bgGradient:
-      'linear-gradient(to bottom left, color(display-p3 1 0.533 0 / 1) 0%, color(display-p3 0.7 0.373 0 / 1) 100%)',
-    dimBgColor: 'color(display-p3 0.7 0.373 0 / 1)',
+      'Edgey helped us set up an automated weekly summary for our members. It pulls upcoming events, new files, and announcements. Our members love the consistency.',
+    author: 'Lena Fischer, Coordinator',
+    bgColor: '#3d2a1a',
+    bgGradient: 'linear-gradient(to bottom left, #4d3520 0%, #25180f 100%)',
+    dimBgColor: '#2d2015',
     textColor: 'light' as 'light' | 'dark',
   },
   {
-    name: 'Mobbin',
-    logo: '/images/customers/logos/mobbin.png',
-    icon: '/images/customers/logos/mobbin-icon.svg',
-    tagline: 'Migrated 200,000 users from Firebase for a better authentication experience.',
+    name: 'Lakefront Rowing Club',
+    initial: 'LR',
+    tagline: 'Onboarded 200 new members in a single season with zero friction.',
     quote:
-      'Migrating to Supabase meant that we could instantly fix our Auth problems and save money. Just being on Supabase alone gives us confidence we can deliver on whatever users need in the future.',
-    author: 'Jian Jie Liau, Co-founder & CTO, Mobbin',
-    authorImg: '/images/blog/avatars/jian-mobbin.jpg',
-    slug: 'mobbin',
-    bgColor: '#000000',
-    bgGradient: 'linear-gradient(to bottom left, #0a0a0a 0%, #000000 100%)',
-    dimBgColor: '#080808',
+      "The member onboarding flow in Clubedge is exactly what we needed. New members fill in a form, get assigned to a group, and receive their welcome pack automatically. It's seamless.",
+    author: 'Thomas Eriksson, Secretary',
+    bgColor: '#1a3a4d',
+    bgGradient: 'linear-gradient(to bottom left, #1e4a61 0%, #0f2535 100%)',
+    dimBgColor: '#15303d',
     textColor: 'light' as 'light' | 'dark',
   },
 ]
-
-function IconChip({
-  story,
-  size = 'md',
-}: {
-  story: (typeof customerStories)[0]
-  size?: 'sm' | 'md'
-}) {
-  const isLight = story.textColor === 'light'
-  const s = story as any
-  const filter =
-    s.iconFilter ?? (s.rawIcon ? undefined : isLight ? 'brightness(0) invert(1)' : 'brightness(0)')
-  return (
-    <img
-      src={story.icon}
-      alt={story.name}
-      className={cn('object-contain shrink-0', size === 'md' ? 'h-8 w-8' : 'h-6 w-6')}
-      style={filter ? { filter } : undefined}
-    />
-  )
-}
 
 // Change INACTIVE_PAD to adjust closed column width automatically
 const INACTIVE_PAD = 22 // px padding on each side of icon in closed columns
@@ -120,9 +76,28 @@ const ACTIVE_PAD = 32 // px padding on each side when card is open
 const ICON_PX = 32 // w-8 = 32px
 const INACTIVE_COL_WIDTH = INACTIVE_PAD * 2 + ICON_PX // = 76px
 
+function InitialChip({
+  story,
+  size = 'md',
+}: {
+  story: (typeof customerStories)[0]
+  size?: 'sm' | 'md'
+}) {
+  return (
+    <div
+      className={cn(
+        'rounded-full flex items-center justify-center font-semibold shrink-0',
+        size === 'md' ? 'h-8 w-8 text-xs' : 'h-6 w-6 text-[10px]'
+      )}
+      style={{ background: 'rgba(255,255,255,0.15)', color: 'white' }}
+    >
+      {story.initial}
+    </div>
+  )
+}
+
 export function CustomerStoriesSection() {
   const [activeIdx, setActiveIdx] = useState(0)
-  const active = customerStories[activeIdx]
 
   return (
     <div className="py-24 flex flex-col gap-16">
@@ -130,14 +105,14 @@ export function CustomerStoriesSection() {
       <SectionContainer className="py-0!">
         <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <h3 className="text-2xl md:text-4xl text-foreground-lighter max-w-xl">
-            How industry leaders <br />{' '}
-            <span className="text-foreground">are building with Supabase</span>
+            How clubs and associations <br />{' '}
+            <span className="text-foreground">are growing with Clubedge</span>
           </h3>
           <Link
-            href="/customers"
+            href="#"
             className="text-sm text-foreground-light hover:text-foreground underline"
           >
-            More customer stories
+            More stories
           </Link>
         </div>
       </SectionContainer>
@@ -148,10 +123,9 @@ export function CustomerStoriesSection() {
         <div className="flex flex-col gap-2 md:hidden">
           {customerStories.map((story, index) => {
             const isActive = index === activeIdx
-            const isDark = story.textColor === 'dark'
             return (
               <div
-                key={story.slug}
+                key={story.name}
                 role="button"
                 tabIndex={0}
                 aria-expanded={isActive}
@@ -166,52 +140,20 @@ export function CustomerStoriesSection() {
                 className="text-left rounded-lg p-5 flex flex-col gap-4 overflow-hidden transition-opacity cursor-pointer"
                 style={{ background: isActive ? story.bgGradient : story.dimBgColor }}
               >
-                <IconChip story={story} size="sm" />
+                <InitialChip story={story} size="sm" />
                 {isActive && (
                   <div className="flex flex-col gap-3 flex-1">
                     <div>
-                      <p
-                        className="text-sm font-medium"
-                        style={{ color: isDark ? '#111' : 'white' }}
-                      >
-                        {story.name}
-                      </p>
-                      <p
-                        className="text-xs mt-0.5"
-                        style={{ color: isDark ? '#888' : 'rgba(255,255,255,0.6)' }}
-                      >
-                        {story.tagline}
-                      </p>
+                      <p className="text-sm font-medium text-white">{story.name}</p>
+                      <p className="text-xs mt-0.5 text-white/60">{story.tagline}</p>
                     </div>
                     <p
-                      className="text-xl font-normal leading-snug text-pretty"
-                      style={{
-                        color: isDark ? '#222' : 'white',
-                        fontFamily: 'var(--font-heading)',
-                      }}
+                      className="text-xl font-normal leading-snug text-pretty text-white"
+                      style={{ fontFamily: 'var(--font-heading)' }}
                     >
                       {story.quote}
                     </p>
-                    <div className="flex items-center gap-2 mb-4">
-                      <img
-                        src={story.authorImg}
-                        alt={story.author}
-                        className="h-6 w-6 rounded-full object-cover shrink-0 ring-1 ring-white/30"
-                      />
-                      <p
-                        className="text-xs"
-                        style={{ color: isDark ? '#888' : 'rgba(255,255,255,0.65)' }}
-                      >
-                        {story.author}
-                      </p>
-                    </div>
-                    <Link
-                      href={`/customers/${story.slug}`}
-                      className="text-xs underline"
-                      style={{ color: isDark ? '#555' : 'rgba(255,255,255,0.7)' }}
-                    >
-                      Read the story →
-                    </Link>
+                    <p className="text-xs text-white/65 mb-4">{story.author}</p>
                   </div>
                 )}
               </div>
@@ -230,11 +172,10 @@ export function CustomerStoriesSection() {
         >
           {customerStories.map((story, index) => {
             const isActive = index === activeIdx
-            const isDark = story.textColor === 'dark'
             return (
               <motion.div
                 layout
-                key={story.slug}
+                key={story.name}
                 role="button"
                 tabIndex={0}
                 aria-expanded={isActive}
@@ -251,14 +192,12 @@ export function CustomerStoriesSection() {
                   background: story.bgGradient,
                   borderRadius: 8,
                   padding: isActive ? ACTIVE_PAD : `${ACTIVE_PAD}px ${INACTIVE_PAD}px`,
-                  boxShadow: isDark
-                    ? 'inset 0 0 0 1px rgba(0,0,0,0.07)'
-                    : 'inset 0 0 0 1px rgba(255,255,255,0.12)',
+                  boxShadow: 'inset 0 0 0 1px rgba(255,255,255,0.12)',
                 }}
                 transition={{ type: 'spring', duration: 0.4, bounce: 0 }}
               >
                 <motion.div layout>
-                  <IconChip story={story} />
+                  <InitialChip story={story} />
                 </motion.div>
 
                 <motion.div
@@ -277,57 +216,26 @@ export function CustomerStoriesSection() {
                   aria-hidden={!isActive}
                   {...(!isActive ? { inert: true } : {})}
                 >
-                  {/* Top: company name + tagline */}
                   <motion.div layout className="flex flex-col gap-1">
-                    <motion.p
-                      layout
-                      className="text-sm font-medium"
-                      style={{ color: isDark ? '#111' : 'white' }}
-                    >
+                    <motion.p layout className="text-sm font-medium text-white">
                       {story.name}
                     </motion.p>
-                    <motion.p
-                      layout
-                      className="text-xs leading-relaxed text-pretty"
-                      style={{ color: isDark ? '#888' : 'rgba(255,255,255,0.6)' }}
-                    >
+                    <motion.p layout className="text-xs leading-relaxed text-pretty text-white/60">
                       {story.tagline}
                     </motion.p>
                   </motion.div>
 
-                  {/* Bottom: quote + author */}
                   <motion.div layout className="flex flex-col gap-4 mt-auto">
                     <motion.p
                       layout
-                      className="text-2xl font-normal leading-snug text-balance"
-                      style={{
-                        color: isDark ? '#222' : 'white',
-                        fontFamily: 'var(--font-heading)',
-                      }}
+                      className="text-2xl font-normal leading-snug text-balance text-white"
+                      style={{ fontFamily: 'var(--font-heading)' }}
                     >
                       {story.quote}
                     </motion.p>
-                    <motion.div layout className="flex items-center gap-2.5 mb-4">
-                      <img
-                        src={story.authorImg}
-                        alt={story.author}
-                        className="h-7 w-7 rounded-full object-cover shrink-0 ring-1 ring-white/30"
-                      />
-                      <motion.p
-                        layout
-                        className="text-xs"
-                        style={{ color: isDark ? '#888' : 'rgba(255,255,255,0.65)' }}
-                      >
-                        {story.author}
-                      </motion.p>
-                    </motion.div>
-                    <Link
-                      href={`/customers/${story.slug}`}
-                      className="text-xs underline"
-                      style={{ color: isDark ? '#555' : 'rgba(255,255,255,0.7)' }}
-                    >
-                      Read the story →
-                    </Link>
+                    <motion.p layout className="text-xs text-white/65 mb-4">
+                      {story.author}
+                    </motion.p>
                   </motion.div>
                 </motion.div>
               </motion.div>
