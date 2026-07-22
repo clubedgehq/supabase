@@ -27,7 +27,7 @@ function SyncLines({ isHovered }: { isHovered: boolean }) {
         <motion.div
           className="absolute inset-0"
           style={{
-            background: 'linear-gradient(to right, transparent 0%, #3ecf8e 50%, transparent 100%)',
+            background: 'linear-gradient(to right, transparent 0%, #0EA5E9 50%, transparent 100%)',
           }}
           animate={isHovered ? { x: ['-100%', '100%'] } : { x: '-100%' }}
           transition={shimmerTransition(0)}
@@ -103,8 +103,8 @@ const ParityImage = ({ isHovered = false }: { isHovered?: boolean }) => (
         style={
           isHovered
             ? {
-                border: '1px solid #3ecf8e',
-                boxShadow: '0 0 12px 0 #3ecf8e40',
+                border: '1px solid #0EA5E9',
+                boxShadow: '0 0 12px 0 #0EA5E940',
               }
             : {
                 border: '1px solid hsl(var(--border-default))',

@@ -6,7 +6,7 @@ import { cn } from 'ui'
 const CHART_COLORS = {
   TICK: 'var(--background-overlay-hover)',
   AXIS: 'var(--background-overlay-hover)',
-  GREEN_1: 'hsl(var(--brand-default))', // #3ECF8E
+  GREEN_1: 'hsl(var(--brand-default))', // #0EA5E9
   GREEN_2: 'hsl(var(--brand-500))',
 }
 

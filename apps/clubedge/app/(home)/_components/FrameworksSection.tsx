@@ -23,11 +23,11 @@ const supabaseDark: ThemeRegistration = {
         'entity.name.tag',
         'support.class.component',
       ],
-      settings: { foreground: '#3ecf8e' },
+      settings: { foreground: '#0EA5E9' },
     },
     {
       scope: ['constant', 'variable.other.constant', 'support.constant'],
-      settings: { foreground: '#3ecf8e' },
+      settings: { foreground: '#0EA5E9' },
     },
     {
       scope: [
@@ -36,7 +36,7 @@ const supabaseDark: ThemeRegistration = {
         'meta.object-literal.key',
         'entity.other.attribute-name',
       ],
-      settings: { foreground: '#3ecf8e' },
+      settings: { foreground: '#0EA5E9' },
     },
     { scope: ['string', 'string.quoted'], settings: { foreground: '#ffcda1' } },
     { scope: ['comment', 'punctuation.definition.comment'], settings: { foreground: '#7e7e7e' } },
@@ -44,7 +44,7 @@ const supabaseDark: ThemeRegistration = {
     { scope: ['punctuation'], settings: { foreground: '#ffffff' } },
     { scope: ['constant.numeric'], settings: { foreground: '#ededed' } },
     { scope: ['markup.underline.link'], settings: { foreground: '#ffffff' } },
-    { scope: ['markup.inserted'], settings: { foreground: '#3ecf8e' } },
+    { scope: ['markup.inserted'], settings: { foreground: '#0EA5E9' } },
     { scope: ['markup.deleted'], settings: { foreground: '#F06A50' } },
   ],
 }

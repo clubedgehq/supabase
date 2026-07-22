@@ -58,7 +58,7 @@ const SupabaseWordmark = ({ className }: { className?: string }) => {
       />
       <path
         d="M45.317 2.07103C48.1765 -1.53037 53.9745 0.442937 54.0434 5.041L54.4849 72.2922H9.83113C1.64038 72.2922 -2.92775 62.8321 2.1655 56.4175L45.317 2.07103Z"
-        fill="#3ECF8E"
+        fill="#0EA5E9"
       />
       <defs>
         <linearGradient
@@ -70,7 +70,7 @@ const SupabaseWordmark = ({ className }: { className?: string }) => {
           gradientUnits="userSpaceOnUse"
         >
           <stop stopColor="#249361" />
-          <stop offset="1" stopColor="#3ECF8E" />
+          <stop offset="1" stopColor="#0EA5E9" />
         </linearGradient>
         <linearGradient
           id={grad1}

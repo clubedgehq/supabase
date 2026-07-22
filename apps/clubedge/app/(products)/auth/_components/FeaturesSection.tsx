@@ -250,7 +250,7 @@ function IntegratedSkeleton() {
                   height="14"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="#3ECF8E"
+                  stroke="#0EA5E9"
                   strokeWidth="1.5"
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -284,7 +284,7 @@ function IntegratedSkeleton() {
                   />
                   <path
                     d="M45.317 2.07103C48.1765 -1.53037 53.9745 0.442937 54.0434 5.041L54.4849 72.2922H9.83113C1.64038 72.2922 -2.92775 62.8321 2.1655 56.4175L45.317 2.07103Z"
-                    fill="#3ECF8E"
+                    fill="#0EA5E9"
                   />
                 </svg>
               </div>
@@ -337,7 +337,7 @@ function IntegratedSkeleton() {
                     />
                     <path
                       d="M45.317 2.07103C48.1765 -1.53037 53.9745 0.442937 54.0434 5.041L54.4849 72.2922H9.83113C1.64038 72.2922 -2.92775 62.8321 2.1655 56.4175L45.317 2.07103Z"
-                      fill="#3ECF8E"
+                      fill="#0EA5E9"
                     />
                   </svg>
                 </div>

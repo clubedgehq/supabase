@@ -20,11 +20,11 @@ const supabaseDark: ThemeRegistration = {
         'entity.name.tag',
         'support.class.component',
       ],
-      settings: { foreground: '#3ecf8e' },
+      settings: { foreground: '#0EA5E9' },
     },
     {
       scope: ['constant', 'variable.other.constant', 'support.constant'],
-      settings: { foreground: '#3ecf8e' },
+      settings: { foreground: '#0EA5E9' },
     },
     {
       scope: [
@@ -33,7 +33,7 @@ const supabaseDark: ThemeRegistration = {
         'meta.object-literal.key',
         'entity.other.attribute-name',
       ],
-      settings: { foreground: '#3ecf8e' },
+      settings: { foreground: '#0EA5E9' },
     },
     { scope: ['string', 'string.quoted'], settings: { foreground: '#ffcda1' } },
     { scope: ['comment', 'punctuation.definition.comment'], settings: { foreground: '#7e7e7e' } },

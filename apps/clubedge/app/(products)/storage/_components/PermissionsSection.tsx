@@ -14,10 +14,10 @@ const supabaseDark: ThemeRegistration = {
       scope: ['keyword', 'storage', 'storage.type', 'storage.modifier'],
       settings: { foreground: '#bda4ff' },
     },
-    { scope: ['entity.name.function', 'support.function'], settings: { foreground: '#3ecf8e' } },
+    { scope: ['entity.name.function', 'support.function'], settings: { foreground: '#0EA5E9' } },
     {
       scope: ['constant', 'variable.other.constant', 'support.constant'],
-      settings: { foreground: '#3ecf8e' },
+      settings: { foreground: '#0EA5E9' },
     },
     { scope: ['string', 'string.quoted'], settings: { foreground: '#ffcda1' } },
     { scope: ['comment', 'punctuation.definition.comment'], settings: { foreground: '#7e7e7e' } },

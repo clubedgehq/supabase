@@ -2,28 +2,28 @@
   animation: fadeIn 3s ease-out both;
   background-image:
     /* Bg glow */
-    radial-gradient(80% 100% at 50% 75%, #3ecf8e10 0%, #0d0e1200 100%),
-    radial-gradient(40% 70% at 50% 80%, #3ecf8e20 0%, #3ecf8e00 100%),
-    /* radial-gradient(100% 100% at 50% 80%, #1c1c1c50 0%, #3ecf8e00 100%), */
+    radial-gradient(80% 100% at 50% 75%, #0EA5E910 0%, #0d0e1200 100%),
+    radial-gradient(40% 70% at 50% 80%, #0EA5E920 0%, #0EA5E900 100%),
+    /* radial-gradient(100% 100% at 50% 80%, #1c1c1c50 0%, #0EA5E900 100%), */
     /* Stars from left to right =================================== */
-    radial-gradient(1px 1px at 5% 25%, #3ecf8e70 0%, #3ecf8e00 100%),
-    radial-gradient(1px 1px at 14% 15%, #3ecf8e 0%, #3ecf8e00 100%),
-    radial-gradient(1px 1px at 19% 35%, #3ecf8e 0%, #3ecf8e00 100%),
-    radial-gradient(1px 1px at 29% 10%, #3ecf8e 0%, #3ecf8e00 100%),
-    radial-gradient(1px 1px at 34% 25%, #3ecf8e80 0%, #3ecf8e00 100%),
-    radial-gradient(1px 1px at 38% 38%, #3ecf8e 0%, #3ecf8e00 100%),
-    radial-gradient(1px 1px at 42% 19%, #3ecf8e80 0%, #3ecf8e00 100%),
-    radial-gradient(2px 2px at 49% 27%, #3ecf8e90 0%, #3ecf8e00 100%),
-    radial-gradient(1px 1px at 52% 7%, #3ecf8e75 0%, #3ecf8e00 100%),
-    radial-gradient(1px 1px at 55% 21%, #3ecf8e90 0%, #3ecf8e00 100%),
-    radial-gradient(1px 1px at 59% 27%, #3ecf8e 0%, #3ecf8e00 100%),
-    radial-gradient(1px 1px at 61% 14%, #3ecf8e90 0%, #3ecf8e00 100%),
-    radial-gradient(1px 1px at 64% 44%, #3ecf8e 0%, #3ecf8e00 100%),
-    radial-gradient(1px 1px at 74% 15%, #3ecf8e 0%, #3ecf8e00 100%),
-    radial-gradient(1px 1px at 80% 36%, #3ecf8e 0%, #3ecf8e00 100%),
-    radial-gradient(1px 1px at 84% 35%, #3ecf8e 0%, #3ecf8e00 100%),
-    radial-gradient(2px 2px at 94% 35%, #3ecf8e50 0%, #3ecf8e00 100%),
-    radial-gradient(1px 1px at 90% 20%, #3ecf8e 0%, #3ecf8e00 100%);
+    radial-gradient(1px 1px at 5% 25%, #0EA5E970 0%, #0EA5E900 100%),
+    radial-gradient(1px 1px at 14% 15%, #0EA5E9 0%, #0EA5E900 100%),
+    radial-gradient(1px 1px at 19% 35%, #0EA5E9 0%, #0EA5E900 100%),
+    radial-gradient(1px 1px at 29% 10%, #0EA5E9 0%, #0EA5E900 100%),
+    radial-gradient(1px 1px at 34% 25%, #0EA5E980 0%, #0EA5E900 100%),
+    radial-gradient(1px 1px at 38% 38%, #0EA5E9 0%, #0EA5E900 100%),
+    radial-gradient(1px 1px at 42% 19%, #0EA5E980 0%, #0EA5E900 100%),
+    radial-gradient(2px 2px at 49% 27%, #0EA5E990 0%, #0EA5E900 100%),
+    radial-gradient(1px 1px at 52% 7%, #0EA5E975 0%, #0EA5E900 100%),
+    radial-gradient(1px 1px at 55% 21%, #0EA5E990 0%, #0EA5E900 100%),
+    radial-gradient(1px 1px at 59% 27%, #0EA5E9 0%, #0EA5E900 100%),
+    radial-gradient(1px 1px at 61% 14%, #0EA5E990 0%, #0EA5E900 100%),
+    radial-gradient(1px 1px at 64% 44%, #0EA5E9 0%, #0EA5E900 100%),
+    radial-gradient(1px 1px at 74% 15%, #0EA5E9 0%, #0EA5E900 100%),
+    radial-gradient(1px 1px at 80% 36%, #0EA5E9 0%, #0EA5E900 100%),
+    radial-gradient(1px 1px at 84% 35%, #0EA5E9 0%, #0EA5E900 100%),
+    radial-gradient(2px 2px at 94% 35%, #0EA5E950 0%, #0EA5E900 100%),
+    radial-gradient(1px 1px at 90% 20%, #0EA5E9 0%, #0EA5E900 100%);
 }
 
 .bg-visual::after {

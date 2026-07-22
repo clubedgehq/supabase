@@ -263,7 +263,7 @@ function DatabaseChangesSkeleton() {
 }
 
 const PRESENCE_USERS = [
-  { name: 'Alan', initials: 'AD', color: '#3ECF8E' },
+  { name: 'Alan', initials: 'AD', color: '#0EA5E9' },
   { name: 'Jonny', initials: 'JW', color: '#6c63ff' },
   { name: 'Copple', initials: 'CP', color: '#F06A50' },
   { name: 'Terry', initials: 'TP', color: '#f1a10d' },
@@ -604,7 +604,7 @@ function BroadcastSkeleton() {
             />
             <path
               d={line.d}
-              stroke="#3ECF8E"
+              stroke="#0EA5E9"
               strokeWidth="2"
               strokeLinecap="round"
               strokeDasharray="40 560"
