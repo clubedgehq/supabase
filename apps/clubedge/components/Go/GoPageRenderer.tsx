@@ -29,7 +29,7 @@ export default function GoPageRenderer({ page }: { page: GoPage }) {
       </main>
       <footer className="border-t border-muted">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 py-4 sm:h-14 px-8 text-sm text-foreground-lighter">
-          <span>&copy; {new Date().getFullYear()} Supabase Inc.</span>
+          <span>&copy; {new Date().getFullYear()} Clubedge Inc.</span>
           <div className="flex gap-6">
             <Link href="/privacy" className="hover:text-foreground transition-colors">
               Privacy Policy

@@ -143,7 +143,7 @@ const page: GoPageInput = {
 
   To enter without purchase, use the [Alternative Mode of Entry](/go/legal/amoe).
 
-  © 2026 Supabase Inc.
+  © 2026 Clubedge Inc.
 
   [Privacy Policy](https://supabase.com/privacy) · [Terms of Service](https://supabase.com/terms) · [Alternative Mode of Entry](/go/legal/amoe)
 `,

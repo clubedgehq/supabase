@@ -44,7 +44,7 @@ const Index = () => {
             <div className="mt-2 sm:max-w-xl max-w-none">
               <p className="text-foreground-lighter text-sm">
                 All Supabase trademarks, logos, or other brand elements can never be modified or
-                used for any other purpose other than to represent Supabase Inc.
+                used for any other purpose other than to represent Clubedge Inc.
               </p>
             </div>
           </SectionContainer>

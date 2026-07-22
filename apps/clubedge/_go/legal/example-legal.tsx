@@ -140,7 +140,7 @@ const page: GoPageInput = {
 
   within sixty (60) days of the end of the Promotion.
 
-  © 2026 Supabase Inc.
+  © 2026 Clubedge Inc.
 
   [Privacy Policy](https://supabase.com/privacy) · [Terms of Service](https://supabase.com/terms)
 `,
