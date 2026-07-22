@@ -109,10 +109,10 @@ export function CustomerStoriesSection() {
             <span className="text-foreground">are growing with Clubedge</span>
           </h3>
           <Link
-            href="#"
+            href="/customers"
             className="text-sm text-foreground-light hover:text-foreground underline"
           >
-            More stories
+            More customer stories
           </Link>
         </div>
       </SectionContainer>
