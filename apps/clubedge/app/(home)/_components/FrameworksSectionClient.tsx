@@ -31,7 +31,7 @@ export function FrameworksSectionClient({ frameworks }: { frameworks: Framework[
           {/* Left: title */}
           <div className="flex flex-col justify-between gap-6 md:gap-10">
             <h3 className="text-2xl md:text-4xl text-foreground-lighter">
-              Use Supabase with{' '}
+              Use Clubedge with{' '}
               <span className="md:block">
                 <AnimatePresence mode="popLayout" initial={false}>
                   <motion.span
@@ -112,7 +112,7 @@ export function FrameworksSectionClient({ frameworks }: { frameworks: Framework[
                 </motion.div>
               </AnimatePresence>
               <Link
-                href={active.docsUrl}
+                href="#"
                 className="absolute bottom-4 right-4 flex items-center gap-1.5 rounded-full bg-surface-100 border border-border px-3 py-1.5 text-xs text-foreground-light hover:text-foreground hover:bg-surface-200 transition-colors whitespace-nowrap"
               >
                 {`Read docs for ${active.name}`}
