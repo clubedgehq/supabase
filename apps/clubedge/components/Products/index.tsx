@@ -39,18 +39,18 @@ const Products: React.FC<Props> = (props) => {
         alignLeft
         url={props.products['database'].url}
         icon={props.products['database'].icon}
-        title={`Postgres ${props.products['database'].name}`}
+        title={props.products['database'].name}
         subtitle={props.products['database'].description}
         highlights={
           <ul className="flex flex-col gap-1 text-sm">
             <li>
-              <Check className="inline h-4 w-4" /> 100% portable
+              <Check className="inline h-4 w-4" /> Complete member profiles
             </li>
             <li>
-              <Check className="inline h-4 w-4" /> Built-in Auth with RLS
+              <Check className="inline h-4 w-4" /> Role and status tracking
             </li>
             <li>
-              <Check className="inline h-4 w-4" /> Easy to extend
+              <Check className="inline h-4 w-4" /> Renewal management
             </li>
           </ul>
         }
@@ -63,12 +63,7 @@ const Products: React.FC<Props> = (props) => {
         url={props.products['authentication'].url}
         icon={props.products['authentication'].icon}
         title={props.products['authentication'].name}
-        subtitle={
-          <>
-            <strong>Add user sign ups and logins</strong>,
-            <br className="hidden lg:inline-block" /> securing your data with Row Level Security.
-          </>
-        }
+        subtitle={props.products['authentication'].description}
         image={<AuthVisual className="hidden sm:block" />}
         onClick={() => sendTelemetryEvent(PRODUCT_SHORTNAMES.AUTHENTICATION)}
       />
@@ -78,13 +73,7 @@ const Products: React.FC<Props> = (props) => {
         url={props.products['functions'].url}
         icon={props.products['functions'].icon}
         title={props.products['functions'].name}
-        subtitle={
-          <>
-            Easily write custom code
-            <br className="hidden sm:inline-block" />{' '}
-            <strong>without deploying or scaling servers.</strong>
-          </>
-        }
+        subtitle={props.products['functions'].description}
         onClick={() => sendTelemetryEvent(PRODUCT_SHORTNAMES.FUNCTIONS)}
         image={<FunctionsVisual className="hidden sm:block" />}
       />
@@ -94,13 +83,7 @@ const Products: React.FC<Props> = (props) => {
         url={props.products['storage'].url}
         icon={props.products['storage'].icon}
         title={props.products['storage'].name}
-        subtitle={
-          <>
-            <strong>Store, organize, and serve</strong>
-            <br className="hidden sm:inline-block xl:hidden 2xl:inline-block" /> large files, from
-            videos to images.
-          </>
-        }
+        subtitle={props.products['storage'].description}
         image={<StorageVisual className="hidden sm:block" />}
         onClick={() => sendTelemetryEvent(PRODUCT_SHORTNAMES.STORAGE)}
       />
@@ -109,12 +92,7 @@ const Products: React.FC<Props> = (props) => {
         url={props.products['realtime'].url}
         icon={props.products['realtime'].icon}
         title={props.products['realtime'].name}
-        subtitle={
-          <>
-            <strong>Build multiplayer experiences</strong>
-            <br className="hidden sm:inline-block" /> with real-time data synchronization.
-          </>
-        }
+        subtitle={props.products['realtime'].description}
         onClick={() => sendTelemetryEvent(PRODUCT_SHORTNAMES.REALTIME)}
         image={<RealtimeVisual className="hidden sm:block" />}
         className="
@@ -212,8 +190,8 @@ const Products: React.FC<Props> = (props) => {
         image={<DataAPIsVisual className="hidden sm:block" />}
       />
       <p className="text-xl sm:text-2xl text-foreground-lighter col-span-full tracking-[-.01rem]">
-        <span className="text-foreground">Use one or all.</span> Best of breed products. Integrated
-        as a platform.
+        <span className="text-foreground">Everything you need.</span> Manage your entire club or
+        association in one unified platform.
       </p>
     </SectionContainer>
   )
