@@ -15,65 +15,64 @@ export type ProductType = {
 
 const MainProducts: ProductType = {
   [PRODUCT_SHORTNAMES.DATABASE]: {
-    name: PRODUCT_NAMES.DATABASE,
+    name: 'Members & Memberships',
     icon: products.database.icon[24],
     description: (
       <>
-        Every project is <strong>a full Postgres database</strong>, the world's most trusted
-        relational database.
+        <strong>Centralize member profiles, roles, statuses and renewals</strong> for your whole club or association.
       </>
     ),
-    description_short: 'Fully portable Postgres database',
+    description_short: 'Manage all your members in one place',
     label: '',
-    url: '/database',
+    url: 'https://clubedge.live/features#members',
   },
   [PRODUCT_SHORTNAMES.AUTHENTICATION]: {
-    name: PRODUCT_NAMES.AUTHENTICATION,
+    name: 'Events & Activities',
     icon: products.authentication.icon[24],
     description: (
       <>
-        <strong>Add user sign ups and logins</strong>, securing your data with Row Level Security.
+        <strong>Create and manage on-site or online events</strong> with registrations, tickets, QR-based attendance and engagement tools.
       </>
     ),
-    description_short: 'User Management out of the box',
+    description_short: 'Organize and track all your events',
     label: '',
-    url: '/auth',
+    url: 'https://clubedge.live/features#events',
   },
   [PRODUCT_SHORTNAMES.STORAGE]: {
-    name: PRODUCT_NAMES.STORAGE,
+    name: 'File Storage',
     icon: products.storage.icon[24],
     description: (
       <>
-        <strong>Store, organize, and serve</strong> large files, from videos to images.
+        <strong>A simple, secure space</strong> to store your documents and media related to your club or association.
       </>
     ),
-    description_short: 'Serverless storage for any media',
+    description_short: 'Centralized storage for all files',
     label: '',
-    url: '/storage',
+    url: 'https://clubedge.live/features#storage',
   },
   [PRODUCT_SHORTNAMES.FUNCTIONS]: {
-    name: PRODUCT_NAMES.FUNCTIONS,
+    name: 'Communication & Announcements',
     icon: products.functions.icon[24],
     description: (
       <>
-        Easily write custom code <strong>without deploying or scaling servers.</strong>
+        <strong>Inform and engage members</strong> with announcements, reminders and email broadcasts.
       </>
     ),
-    description_short: 'Deploy code globally on the edge',
+    description_short: 'Keep your members informed',
     label: '',
-    url: '/edge-functions',
+    url: 'https://clubedge.live/features#communication',
   },
   [PRODUCT_SHORTNAMES.REALTIME]: {
-    name: PRODUCT_NAMES.REALTIME,
+    name: 'Edgey AI Assistant',
     icon: products.realtime.icon[24],
     description: (
       <>
-        <strong>Build multiplayer experiences</strong> with real-time data synchronization.
+        <strong>Use Edgey to assist leaders</strong> with guidance, suggestions and light automation inside Clubedge.
       </>
     ),
-    description_short: 'Synchronize and broadcast events',
+    description_short: 'AI-powered workflow automation',
     label: '',
-    url: '/realtime',
+    url: 'https://clubedge.live/features#edgey',
   },
 }
 
