@@ -14,8 +14,8 @@ const FunctionsVisual: React.FC<Props> = ({ className }) => {
   const isMobile = useBreakpoint('md')
   const [typed, setTyped] = useState<Typed | null>(null)
   const [isPlaying, setIsPlaying] = useState(false)
-  const firstString = 'deploy'
-  const strings = [firstString, 'serve']
+  const firstString = 'sync'
+  const strings = [firstString, 'notify', 'automate']
   const disableAnimation = isPlaying || isMobile
 
   let hoverTimeoutRef: any
@@ -71,7 +71,7 @@ const FunctionsVisual: React.FC<Props> = ({ className }) => {
     <figure
       className={cn('absolute inset-0 z-20', className)}
       role="img"
-      aria-label="Supabase Edge Functions visual composition"
+      aria-label="Clubedge Automation visual composition"
       onMouseOver={handleMouseEnter}
       onMouseOut={handleMouseLeave}
     >
@@ -106,9 +106,9 @@ const FunctionsVisual: React.FC<Props> = ({ className }) => {
         "
       >
         <span className="mr-2">$</span>
-        supabase
+        clubedge
         <span className="ml-1 text-brand inline-block">
-          functions <span ref={typerRef}>{firstString}</span>
+          <span ref={typerRef}>{firstString}</span>
         </span>
       </div>
     </figure>
