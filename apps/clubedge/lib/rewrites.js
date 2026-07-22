@@ -3,84 +3,13 @@ const rewrites = [
     source: '/:path*',
     destination: `/:path*`,
   },
-  ...(process.env.NEXT_PUBLIC_STUDIO_URL
-    ? [
-        {
-          source: '/dashboard',
-          destination: `${process.env.NEXT_PUBLIC_STUDIO_URL}`,
-        },
-        {
-          source: '/dashboard/:path*',
-          destination: `${process.env.NEXT_PUBLIC_STUDIO_URL}/:path*`,
-        },
-      ]
-    : []),
-  ...(process.env.NEXT_PUBLIC_VERCEL_ENV === 'production' && process.env.NEXT_PUBLIC_DOCS_URL
-    ? [
-        { source: '/docs', destination: `${process.env.NEXT_PUBLIC_DOCS_URL}` },
-        {
-          source: '/docs/',
-          destination: `${process.env.NEXT_PUBLIC_DOCS_URL}`,
-        },
-        { source: '/docs/:path*', destination: `${process.env.NEXT_PUBLIC_DOCS_URL}/:path*` },
-      ]
-    : []),
-  ...(process.env.NEXT_PUBLIC_UI_LIBRARY_URL
-    ? [
-        {
-          source: '/ui',
-          destination: `${process.env.NEXT_PUBLIC_UI_LIBRARY_URL}`,
-        },
-        {
-          source: '/ui/:path*',
-          destination: `${process.env.NEXT_PUBLIC_UI_LIBRARY_URL}/:path*`,
-        },
-      ]
-    : []),
-  ...(process.env.NEXT_PUBLIC_DESIGN_SYSTEM_URL
-    ? [
-        {
-          source: '/design-system',
-          destination: `${process.env.NEXT_PUBLIC_DESIGN_SYSTEM_URL}`,
-        },
-        {
-          source: '/design-system/:path*',
-          destination: `${process.env.NEXT_PUBLIC_DESIGN_SYSTEM_URL}/:path*`,
-        },
-      ]
-    : []),
-  ...(process.env.NEXT_PUBLIC_REFERENCE_DOCS_URL
-    ? [
-        {
-          source: '/new-docs',
-          destination: `${process.env.NEXT_PUBLIC_REFERENCE_DOCS_URL}`,
-        },
-        {
-          source: '/new-docs/',
-          destination: `${process.env.NEXT_PUBLIC_REFERENCE_DOCS_URL}`,
-        },
-        {
-          source: '/new-docs/:path*',
-          destination: `${process.env.NEXT_PUBLIC_REFERENCE_DOCS_URL}/:path*`,
-        },
-      ]
-    : []),
-  ...(process.env.NEXT_PUBLIC_DOCS_URL
-    ? [
-        {
-          source: '/humans.txt',
-          destination: `${process.env.NEXT_PUBLIC_DOCS_URL}/humans.txt`,
-        },
-        {
-          source: '/lawyers.txt',
-          destination: `${process.env.NEXT_PUBLIC_DOCS_URL}/lawyers.txt`,
-        },
-        {
-          source: '/.well-known/security.txt',
-          destination: `${process.env.NEXT_PUBLIC_DOCS_URL}/.well-known/security.txt`,
-        },
-      ]
-    : []),
+  // External service rewrites are disabled until services are configured
+  // Uncomment when environment variables are set:
+  // - NEXT_PUBLIC_STUDIO_URL (for /dashboard)
+  // - NEXT_PUBLIC_DOCS_URL (for /docs, /humans.txt, /lawyers.txt, /.well-known/security.txt)
+  // - NEXT_PUBLIC_UI_LIBRARY_URL (for /ui)
+  // - NEXT_PUBLIC_DESIGN_SYSTEM_URL (for /design-system)
+  // - NEXT_PUBLIC_REFERENCE_DOCS_URL (for /new-docs)
   { source: '/feed.xml', destination: `/rss.xml` },
 ]
 
