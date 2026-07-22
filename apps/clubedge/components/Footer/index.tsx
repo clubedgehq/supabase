@@ -1,9 +1,6 @@
 'use client'
 
 import { CheckIcon } from '@heroicons/react/outline'
-import { REALTIME_CHANNEL_STATES } from '@supabase/supabase-js'
-import SupabaseWordmark from '~/components/Nav/SupabaseWordmark'
-import supabase from '~/lib/supabase'
 import footerData from 'data/Footer'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
@@ -58,15 +55,7 @@ const Footer = (props: Props) => {
   const isGAWeek = pathname?.includes('/ga-week')
   const forceDark = isDarkLaunchWeek
 
-  useEffect(() => {
-    const channel = supabase.channel('footer')
-    if (channel.state === REALTIME_CHANNEL_STATES.closed) {
-      channel.subscribe()
-    }
-    return () => {
-      channel.unsubscribe()
-    }
-  }, [])
+
 
   if (props.hideFooter) {
     return null
@@ -87,23 +76,23 @@ const Footer = (props: Props) => {
       <div className="w-full py-0!">
         <SectionContainer className="grid grid-cols-2 md:flex items-center justify-between text-foreground md:justify-center gap-8 md:gap-16 xl:gap-28 py-6! md:py-10! text-sm">
           <div className="flex flex-col md:flex-row gap-2 md:items-center">
-            We protect your data.
-            <Link href="/security" className="text-brand-link hover:underline">
-              More on Security
+            Built for growing communities.
+            <Link href="#" className="text-brand-link hover:underline">
+              Learn more
             </Link>
           </div>
           <ul className="flex flex-col md:flex-row gap-2 md:gap-8 justify-center md:items-center">
             <li className="flex items-center gap-2 whitespace-nowrap flex-nowrap">
-              <CheckIcon className="w-4 h-4" /> SOC2 Type 2{' '}
-              <span className="text-foreground-lighter hidden sm:inline">Certified</span>
+              <CheckIcon className="w-4 h-4" /> Data{' '}
+              <span className="text-foreground-lighter hidden sm:inline">Privacy First</span>
             </li>
             <li className="flex items-center gap-2 whitespace-nowrap flex-nowrap">
-              <CheckIcon className="w-4 h-4" /> HIPAA{' '}
-              <span className="text-foreground-lighter hidden sm:inline">Compliant</span>
+              <CheckIcon className="w-4 h-4" /> Open{' '}
+              <span className="text-foreground-lighter hidden sm:inline">Roadmap</span>
             </li>
             <li className="flex items-center gap-2 whitespace-nowrap flex-nowrap">
-              <CheckIcon className="w-4 h-4" /> ISO 27001{' '}
-              <span className="text-foreground-lighter hidden sm:inline">Certified</span>
+              <CheckIcon className="w-4 h-4" /> Community{' '}
+              <span className="text-foreground-lighter hidden sm:inline">Driven</span>
             </li>
           </ul>
         </SectionContainer>
@@ -112,8 +101,8 @@ const Footer = (props: Props) => {
       <SectionContainer className="py-8">
         <div className="xl:grid xl:grid-cols-7 xl:gap-4">
           <div className="xl:col-span-2 flex flex-col gap-8">
-            <Link href="#" as="/" className="w-40">
-              <SupabaseWordmark className="w-40 h-[30px]" />
+            <Link href="/" className="w-40">
+              <div className="w-40 h-[30px] font-bold text-xl text-foreground">Clubedge</div>
             </Link>
             <div className="flex space-x-5">
               <a
@@ -177,7 +166,7 @@ const Footer = (props: Props) => {
               ) : (
                 <form onSubmit={handleNewsletterSubmit} className="flex flex-col gap-2">
                   <p className="text-foreground-lighter text-sm">
-                    Get product updates and news from Supabase.
+                    Get product updates and news from Clubedge.
                   </p>
                   <Input
                     type="email"
