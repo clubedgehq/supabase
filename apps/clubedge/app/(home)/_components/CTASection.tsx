@@ -11,34 +11,34 @@ export function CTASection() {
     <div className="relative overflow-hidden py-32">
       <div className="relative z-20 flex flex-col items-center text-center gap-6">
         <h2 className="h2">
-          <span className="text-foreground-lighter">Build in a weekend,</span>
-          <span className="text-foreground block sm:inline"> scale to millions</span>
+          <span className="text-foreground-lighter">Ready to centralize your club</span>
+          <span className="text-foreground block sm:inline"> or association?</span>
         </h2>
         <div className="flex items-center gap-2">
           <Button asChild size="medium">
             <Link
-              href="https://supabase.com/dashboard"
+              href="https://clubedge.live/book-demo"
               onClick={() =>
                 sendTelemetryEvent({
-                  action: 'start_project_button_clicked',
+                  action: 'book_demo_button_clicked',
                   properties: { buttonLocation: 'CTA Banner' },
                 })
               }
             >
-              Start your project
+              Book a live demo
             </Link>
           </Button>
           <Button asChild size="medium" variant="default">
             <Link
-              href="/contact/sales"
+              href="https://clubedge.live/contact"
               onClick={() =>
                 sendTelemetryEvent({
-                  action: 'request_demo_button_clicked',
+                  action: 'contact_us_button_clicked',
                   properties: { buttonLocation: 'CTA Banner' },
                 })
               }
             >
-              Request a demo
+              Contact us
             </Link>
           </Button>
         </div>

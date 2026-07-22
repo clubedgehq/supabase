@@ -15,28 +15,27 @@ export default () => {
       heading: (
         <>
           <span className="block text-[#F4FFFA00] bg-clip-text bg-linear-to-b from-foreground to-foreground-light">
-            Build in a weekend
+            Run your organization
           </span>
-          <span className="text-transparent bg-clip-text bg-linear-to-br from-[#3ECF8E] via-[#3ECF8E] to-[#3ecfb2] block md:ml-0">
-            Scale to millions
+          <span className="text-transparent bg-clip-text bg-linear-to-br from-[#0EA5E9] via-[#0EA5E9] to-[#06B6D4] block md:ml-0">
+            effortlessly
           </span>
         </>
       ),
       subheading: (
         <>
-          Supabase is the Postgres development platform. <br className="hidden md:block" />
-          Start your project with a Postgres database, Authentication, instant APIs, Edge Functions,
-          Realtime subscriptions, Storage, and Vector embeddings.
+          Clubedge is the all-in-one platform for clubs and associations. <br className="hidden md:block" />
+          Centralize members, events, forms, files, announcements, analytics, automations and Edgey, your AI assistant, in a single modern platform.
         </>
       ),
       image: '/images/index/gradient-bg.png',
       cta: {
-        label: 'Start your project',
-        link: 'https://app.supabase.com',
+        label: 'Book a live demo',
+        link: 'https://clubedge.live/book-demo',
       },
       secondaryCta: {
-        label: 'Documentation',
-        link: '/docs',
+        label: 'Learn more',
+        link: 'https://clubedge.live',
       },
     },
     productsSection: {
@@ -60,17 +59,17 @@ export default () => {
     dashboardFeatures: {
       title: (
         <>
-          <span className="text-foreground">Stay productive and manage your app</span>
-          <br className="hidden sm:block" /> without leaving the dashboard
+          <span className="text-foreground">Manage your organization</span>
+          <br className="hidden sm:block" /> from a powerful unified dashboard
         </>
       ),
       tabs: [
         {
-          label: 'Table Editor',
+          label: 'Member Management',
           panel: ({ isDark }: { isDark: boolean }) => (
             <VideoWithHighlights
               video={{
-                title: 'Supabase dashboard table editor',
+                title: 'Clubedge member management',
                 sources: [
                   {
                     src: `https://xguihxuzqibwxjnimxev.supabase.co/storage/v1/object/public/videos/marketing/website/supabase-table-editor${isDark ? '' : '-light'}`,
@@ -83,27 +82,27 @@ export default () => {
           ),
           highlights: [
             {
-              label: 'Full CRUD',
-              link: '/docs/guides/database/tables?queryGroups=database-method&database-method=sql&queryGroups=language&language=js',
+              label: 'Member profiles and directory',
+              link: 'https://clubedge.live',
             },
             {
-              label: 'Materialized Views',
-              link: '/docs/guides/database/tables?queryGroups=database-method&database-method=sql&queryGroups=language&language=js#materialized-views',
+              label: 'Attendance tracking',
+              link: 'https://clubedge.live',
             },
             {
-              label: 'Foreign Tables',
-              link: '/docs/guides/database/tables?queryGroups=database-method&database-method=sql&queryGroups=language&language=js#joining-tables-with-foreign-keys',
+              label: 'Membership management',
+              link: 'https://clubedge.live',
             },
-            { label: 'Partitioned Tables', link: '/docs/guides/database/partitions' },
-            { label: 'Easy as a spreadsheet', link: '/docs/guides/database/overview#table-view' },
+            { label: 'Automated reminders', link: 'https://clubedge.live' },
+            { label: 'Role-based access', link: 'https://clubedge.live' },
           ],
         },
         {
-          label: 'SQL Editor',
+          label: 'Events & Activities',
           panel: ({ isDark }: { isDark: boolean }) => (
             <VideoWithHighlights
               video={{
-                title: 'Supabase dashboard SQL editor',
+                title: 'Clubedge events management',
                 sources: [
                   {
                     src: `https://xguihxuzqibwxjnimxev.supabase.co/storage/v1/object/public/videos/marketing/website/supabase-sql-editor${isDark ? '' : '-light'}`,
@@ -115,27 +114,27 @@ export default () => {
             />
           ),
           highlights: [
-            { label: 'AI SQL Editor', link: '/docs/guides/database/overview#the-sql-editor' },
+            { label: 'Visual calendar interface', link: 'https://clubedge.live' },
             {
-              label: 'Row Level Security',
-              link: '/docs/guides/database/postgres/row-level-security',
+              label: 'RSVP management',
+              link: 'https://clubedge.live',
             },
             {
-              label: 'Save time using Templates',
-              link: '/docs/guides/database/overview#the-sql-editor',
+              label: 'Automated notifications',
+              link: 'https://clubedge.live',
             },
             {
-              label: 'Save and reuse Queries',
-              link: '/docs/guides/database/overview#the-sql-editor',
+              label: 'Recurring events',
+              link: 'https://clubedge.live',
             },
           ],
         },
         {
-          label: 'RLS Policies',
+          label: 'Analytics & Edgey AI',
           panel: ({ isDark }: { isDark: boolean }) => (
             <VideoWithHighlights
               video={{
-                title: 'Supabase dashboard Row Level Security',
+                title: 'Clubedge analytics and AI',
                 sources: [
                   {
                     src: `https://xguihxuzqibwxjnimxev.supabase.co/storage/v1/object/public/videos/marketing/website/supabase-rls${isDark ? '' : '-light'}`,
@@ -147,22 +146,22 @@ export default () => {
             />
           ),
           highlights: [
-            { label: 'Email Logins', link: '/docs/guides/auth/auth-email-passwordless' },
+            { label: 'Engagement tracking', link: 'https://clubedge.live' },
             {
-              label: 'Magic Links',
-              link: '/docs/guides/auth/auth-email-passwordless?queryGroups=language&language=js#with-magic-link',
+              label: 'Growth indicators',
+              link: 'https://clubedge.live',
             },
             {
-              label: '20+ Third-party Logins',
-              link: '/docs/guides/auth/social-login#set-up-a-social-provider-with-supabase-auth',
+              label: 'AI-powered suggestions',
+              link: 'https://clubedge.live',
             },
             {
-              label: 'Custom Access Policies via RLS',
-              link: '/docs/guides/database/postgres/row-level-security',
+              label: 'Automated workflows',
+              link: 'https://clubedge.live',
             },
             {
-              label: 'Password Recovery',
-              link: '/docs/guides/auth/passwords?queryGroups=language&language=js#resetting-a-password',
+              label: 'Export capabilities',
+              link: 'https://clubedge.live',
             },
           ],
         },
@@ -170,20 +169,20 @@ export default () => {
     },
     twitterSocialSection: {
       heading: 'Join the community',
-      subheading: 'Discover what our community has to say about their Supabase experience.',
+      subheading: 'Connect with clubs and organizations using Clubedge to manage their communities.',
       ctas: (
-        <Button asChild variant="default" size="small" icon={<IconDiscord />}>
+        <Button asChild variant="default" size="small">
           <Link
-            href={'https://discord.supabase.com/'}
+            href={'https://clubedge.live'}
             target="_blank"
             tabIndex={-1}
             onClick={() =>
               sendTelemetryEvent({
-                action: 'homepage_discord_button_clicked',
+                action: 'homepage_clubedge_button_clicked',
               })
             }
           >
-            Join us on Discord
+            Explore Clubedge
           </Link>
         </Button>
       ),

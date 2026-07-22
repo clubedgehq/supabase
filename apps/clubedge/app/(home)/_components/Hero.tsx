@@ -14,31 +14,30 @@ export function Hero() {
       <div className="flex flex-col gap-6 lg:gap-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-end">
           <h1 className="text-foreground text-4xl sm:text-5xl sm:leading-none">
-            <span className="block">Connect with Your Club</span>
-            <span className="text-brand block">Build Your Community</span>
+            <span className="block">Run your organization</span>
+            <span className="text-brand block">effortlessly</span>
           </h1>
           <p className="text-foreground-lighter text-balance">
-            Club Edge empowers communities to collaborate, connect, and grow together. 
-            Create meaningful experiences with powerful tools built for modern clubs and organizations.
+            Clubedge centralizes members, events, forms, files, announcements, analytics, automations and Edgey, your AI assistant, in a single modern platform.
           </p>
         </div>
         <div className="flex items-center gap-2">
           <Button asChild size="medium">
             <Link
-              href="https://clubedge.co/join"
+              href="https://clubedge.live/book-demo"
               onClick={() =>
                 sendTelemetryEvent({
-                  action: 'join_clubedge_button_clicked',
+                  action: 'book_demo_button_clicked',
                   properties: { buttonLocation: 'Homepage Hero' },
                 })
               }
             >
-              Join Club Edge
+              Book a live demo
             </Link>
           </Button>
           <Button asChild size="medium" variant="default">
             <Link
-              href="/contact/sales"
+              href="https://clubedge.live"
               onClick={() =>
                 sendTelemetryEvent({
                   action: 'learn_more_button_clicked',

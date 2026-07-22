@@ -45,11 +45,11 @@ export function CommunitySectionV2() {
         <div className="flex flex-col items-center gap-3 px-6 py-20">
           <h3 className="text-2xl md:text-4xl text-center">Join the community</h3>
           <p className="text-foreground-lighter text-center">
-            Discover what our community has to say about their Supabase experience.
+            Connect with clubs and organizations using Clubedge to manage their communities.
           </p>
           <Button asChild variant="default" size="small" className="mt-2">
-            <Link href="https://discord.supabase.com/" target="_blank" rel="noopener noreferrer">
-              Join us on Discord
+            <Link href="https://clubedge.live" target="_blank" rel="noopener noreferrer">
+              Explore Clubedge
             </Link>
           </Button>
         </div>
