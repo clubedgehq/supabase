@@ -2,7 +2,7 @@ import { remarkCodeHike } from '@code-hike/mdx'
 import bundleAnalyzer from '@next/bundle-analyzer'
 import nextMdx from '@next/mdx'
 import { withSentryConfig } from '@sentry/nextjs'
-import codeHikeTheme from 'config/code-hike.theme.json' with { type: 'json' }
+import codeHikeTheme from '../../packages/config/code-hike.theme.json' with { type: 'json' }
 import rehypeSlug from 'rehype-slug'
 import remarkGfm from 'remark-gfm'
 
