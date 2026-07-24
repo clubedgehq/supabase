@@ -1,6 +1,6 @@
 {
-  "buildCommand": "turbo run build --filter=clubedge",
-  "devCommand": "turbo run dev --filter=clubedge --parallel",
+  "buildCommand": "pnpm run build",
+  "devCommand": "pnpm run dev",
   "installCommand": "pnpm install --frozen-lockfile",
-  "outputDirectory": "apps/clubedge/.next"
+  "outputDirectory": ".next"
 }
