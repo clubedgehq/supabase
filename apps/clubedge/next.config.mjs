@@ -53,10 +53,7 @@ const nextConfig = {
     // needed to make the octokit packages work in /changelog
     '@octokit/plugin-paginate-graphql',
   ],
-  experimental: {
-    // needed to make the octokit packages work in /changelog
-    esmExternals: 'loose',
-  },
+
   /**
    * Exclude huge directories from being traced into serverless functions
    * to avoid the max size limit for Serverless Functions on Vercel:
