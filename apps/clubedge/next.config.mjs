@@ -53,10 +53,7 @@ const nextConfig = {
     // needed to make the octokit packages work in /changelog
     '@octokit/plugin-paginate-graphql',
   ],
-  experimental: {
-    // needed to make the octokit packages work in /changelog
-    esmExternals: 'loose',
-  },
+
   /**
    * Exclude huge directories from being traced into serverless functions
    * to avoid the max size limit for Serverless Functions on Vercel:
@@ -241,8 +238,14 @@ export default withSentryConfig(configExport, {
   // For all available options, see:
   // https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/
 
+  // Disable source map uploads to save memory during build
+  uploadSourcemaps: false,
+  
+  // Disable Sentry telemetry to reduce memory footprint
+  telemetry: false,
+  
   // Upload a larger set of source maps for prettier stack traces (increases build time)
-  widenClientFileUpload: true,
+  // widenClientFileUpload: true,
 
   // Uncomment to route browser requests to Sentry through a Next.js rewrite to circumvent ad-blockers.
   // This can increase your server load as well as your hosting bill.
