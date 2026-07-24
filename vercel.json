@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd apps/clubedge && pnpm install --frozen-lockfile && pnpm build",
+  "devCommand": "cd apps/clubedge && pnpm dev",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "outputDirectory": "apps/clubedge/.next"
+}
