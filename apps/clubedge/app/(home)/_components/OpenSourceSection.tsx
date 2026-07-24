@@ -5,7 +5,7 @@ import { useSendTelemetryEvent } from '~/lib/telemetry'
 import { useInView } from 'framer-motion'
 import Link from 'next/link'
 import { useRef } from 'react'
-import { Button } from '../../packages/ui'
+import { Button } from 'ui'
 
 import { kFormatter } from '../../../lib/helpers'
 import SectionContainer from '@/components/Layouts/SectionContainer'

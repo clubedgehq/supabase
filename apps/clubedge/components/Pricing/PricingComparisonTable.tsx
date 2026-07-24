@@ -6,8 +6,8 @@ import { Organization } from '~/data/organizations'
 import { useSendTelemetryEvent } from '~/lib/telemetry'
 import Link from 'next/link'
 import { useState } from 'react'
-import { plans } from '../../packages/shared-data/plans'
-import { pricing } from '../../packages/shared-data/pricing'
+import { plans } from 'shared-data/plans'
+import { pricing } from 'shared-data/pricing'
 import {
   Button,
   cn,
@@ -17,7 +17,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '../../packages/ui'
+} from 'ui'
 
 import UpgradePlan from './UpgradePlan'
 

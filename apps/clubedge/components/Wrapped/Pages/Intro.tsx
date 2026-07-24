@@ -4,7 +4,7 @@ import * as Scrollytelling from '@bsmnt/scrollytelling'
 import { useRef, useState, useEffect } from 'react'
 import { motion, AnimatePresence, useInView } from 'framer-motion'
 import { Dots, Stripes } from '../Visuals'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 const titles = [
   'Thank you to our community.',

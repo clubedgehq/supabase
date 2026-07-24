@@ -1,7 +1,7 @@
 'use client'
 
 import SectionContainerWithCn from '~/components/Layouts/SectionContainerWithCn'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 const FEATURES = [
   {

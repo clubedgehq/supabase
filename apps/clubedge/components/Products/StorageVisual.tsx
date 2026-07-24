@@ -1,6 +1,6 @@
 import { range } from 'lib/helpers'
 import { File, Image, Video } from 'lucide-react'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 interface Props {
   className?: string

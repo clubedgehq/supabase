@@ -12,7 +12,7 @@ import kotlin from 'react-syntax-highlighter/dist/cjs/languages/hljs/kotlin'
 import py from 'react-syntax-highlighter/dist/cjs/languages/hljs/python'
 import sql from 'react-syntax-highlighter/dist/cjs/languages/hljs/sql'
 import yaml from 'react-syntax-highlighter/dist/cjs/languages/hljs/yaml'
-import { Button, cn } from '../../packages/ui'
+import { Button, cn } from 'ui'
 
 import monokaiCustomTheme, { codeHikeTheme } from './CodeBlock.utils'
 

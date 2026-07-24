@@ -3,7 +3,7 @@ import { ArrowUpRight } from 'lucide-react'
 import Link from 'next/link'
 import { ReactNode } from 'react'
 import ReactMarkdown from 'react-markdown'
-import { Button, cn } from '../../packages/ui'
+import { Button, cn } from 'ui'
 
 interface Feature {
   icon: string

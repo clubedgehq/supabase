@@ -1,6 +1,6 @@
 import { AnimatePresence, motion, useAnimation } from 'framer-motion'
 import { useEffect, useState, type ReactNode } from 'react'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 interface TabProps {
   label: ReactNode

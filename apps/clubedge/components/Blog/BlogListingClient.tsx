@@ -7,7 +7,7 @@ import BlogViewToggle from 'components/Blog/BlogViewToggle'
 import { Search } from 'lucide-react'
 import { useMemo, useState } from 'react'
 import type PostTypes from 'types/post'
-import { InputGroup, InputGroupAddon, InputGroupInput } from '../../packages/ui'
+import { InputGroup, InputGroupAddon, InputGroupInput } from 'ui'
 
 import SectionContainerWithCn from '@/components/Layouts/SectionContainerWithCn'
 

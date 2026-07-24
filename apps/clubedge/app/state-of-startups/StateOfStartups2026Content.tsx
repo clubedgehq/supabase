@@ -6,7 +6,7 @@ import { useSendTelemetryEvent } from '~/lib/telemetry'
 import { AnimatePresence, motion } from 'framer-motion'
 import Link from 'next/link'
 import { forwardRef, useEffect, useRef, useState, type RefObject } from 'react'
-import { Button, cn } from '../../packages/ui'
+import { Button, cn } from 'ui'
 
 import { ParticipantsCarousel } from './components/ParticipantsCarousel'
 import { StateOfStartupsAuroraHeader } from './components/StateOfStartupsAuroraHeader'

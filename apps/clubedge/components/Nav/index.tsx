@@ -9,7 +9,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React, { useState } from 'react'
 import { useWindowSize } from 'react-use'
-import { Button, buttonVariants, cn } from '../../packages/ui'
+import { Button, buttonVariants, cn } from 'ui'
 
 import {
   NavigationMenu,

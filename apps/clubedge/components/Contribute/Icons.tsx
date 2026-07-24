@@ -1,5 +1,5 @@
 import type { SVGProps } from 'react'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 import type { ThreadSource } from '~/types/contribute'
 
 export function RedditIcon(props: SVGProps<SVGSVGElement>) {

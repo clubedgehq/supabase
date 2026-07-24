@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { useState } from 'react'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 import SectionContainer from '@/components/Layouts/SectionContainer'
 

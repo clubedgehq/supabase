@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { Code, DatabaseIcon, Play } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { Bar, BarChart, CartesianGrid, XAxis } from 'recharts'
-import { Button, ChartContainer, ChartTooltip, ChartTooltipContent, cn, SQL_ICON } from '../../packages/ui'
+import { Button, ChartContainer, ChartTooltip, ChartTooltipContent, cn, SQL_ICON } from 'ui'
 
 import CodeBlock from '../CodeBlock/CodeBlock'
 

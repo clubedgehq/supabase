@@ -1,9 +1,9 @@
 'use client'
 
 import { useCopyMarkdownFromUrl } from 'common'
-import { Chatgpt, Claude } from '../../packages/icons'
+import { Chatgpt, Claude } from 'icons'
 import { Check, Copy, ExternalLink } from 'lucide-react'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 import { LabelBadges } from '@/components/Changelog/ChangelogTimelineList'
 import type { ChangelogLabel } from '@/lib/changelog-github'

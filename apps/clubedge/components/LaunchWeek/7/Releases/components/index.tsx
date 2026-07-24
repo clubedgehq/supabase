@@ -1,4 +1,4 @@
-import { Badge } from '../../packages/ui'
+import { Badge } from 'ui'
 
 import styles from '../styles/launchWeek7.module.css'
 import Link from 'next/link'

@@ -1,7 +1,7 @@
 import SectionContainerWithCn from '~/components/Layouts/SectionContainerWithCn'
 import Examples from 'data/Examples'
 import Link from 'next/link'
-import { PRODUCT_NAMES } from '../../packages/shared-data/products'
+import { PRODUCT_NAMES } from 'shared-data/products'
 
 const EXAMPLE_ICON: Record<string, { src: string; invert?: boolean; className?: string }> = {
   Resend: { src: '/images/logos/resend-wordmark.svg', invert: true, className: 'h-4 w-auto' },

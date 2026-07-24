@@ -5,7 +5,7 @@ import { Edit } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { cn, Skeleton } from '../../packages/ui'
+import { cn, Skeleton } from 'ui'
 import CountdownComponent from 'ui-patterns/Banners/Countdown'
 
 import { WeekDayProps } from '../data'

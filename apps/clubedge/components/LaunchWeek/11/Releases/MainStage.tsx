@@ -5,7 +5,7 @@ import SectionContainer from '~/components/Layouts/SectionContainer'
 import DaySection from './components/DaySection'
 import LW11Day1 from '../LW11Day1'
 import HackathonCallout from '../HackathonCallout'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 import { useTheme } from 'next-themes'
 
 const MainStage = ({ className }: { className?: string }) => {

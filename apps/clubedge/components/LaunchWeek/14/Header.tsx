@@ -1,6 +1,6 @@
 import SectionContainerWithCn from '~/components/Layouts/SectionContainerWithCn'
 import { ReactNode, useEffect, useState } from 'react'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 export const TicketHeader = ({ children, hidden }: { children: ReactNode; hidden?: boolean }) => {
   if (hidden) return null

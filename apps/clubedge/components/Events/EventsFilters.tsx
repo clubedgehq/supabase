@@ -19,7 +19,7 @@ import {
   InputGroupAddon,
   InputGroupButton,
   InputGroupInput,
-} from '../../packages/ui'
+} from 'ui'
 
 interface Props {
   allEvents: PostTypes[]

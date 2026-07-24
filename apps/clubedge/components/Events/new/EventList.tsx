@@ -4,7 +4,7 @@ import { useEvents } from '~/app/events/context'
 import { formatHosts } from '~/lib/eventsUtils'
 import { MapPinIcon, Rows3Icon, VideoIcon } from 'lucide-react'
 import Link from 'next/link'
-import { Badge, Button, cn } from '../../packages/ui'
+import { Badge, Button, cn } from 'ui'
 
 const CATEGORIES_FILTERS = [
   { name: 'All', value: 'all' },

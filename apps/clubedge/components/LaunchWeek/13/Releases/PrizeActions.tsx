@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Button } from '../../packages/ui'
+import { Button } from 'ui'
 
 export default function PrizeActions() {
   return (

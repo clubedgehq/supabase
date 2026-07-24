@@ -1,4 +1,4 @@
-import { Button } from '../../packages/ui'
+import { Button } from 'ui'
 import { useRouter } from 'next/router'
 
 const Benchmark = () => {

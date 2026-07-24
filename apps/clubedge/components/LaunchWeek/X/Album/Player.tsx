@@ -1,7 +1,7 @@
 import { ArrowRight } from 'lucide-react'
 import Link from 'next/link'
 import { useAudio } from 'react-use'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 const Player = () => {
   const [audio, state, controls, ref] = useAudio({

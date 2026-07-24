@@ -1,6 +1,6 @@
 import type { PropsWithChildren } from 'react'
 
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 export function NamedCodeBlock({ name, children }: PropsWithChildren<{ name: string }>) {
   return (

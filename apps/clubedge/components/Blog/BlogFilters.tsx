@@ -20,7 +20,7 @@ import {
   InputGroupAddon,
   InputGroupButton,
   InputGroupInput,
-} from '../../packages/ui'
+} from 'ui'
 
 interface Props {
   view: BlogView

@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { Button, cn } from '../../packages/ui'
+import { Button, cn } from 'ui'
 import { useSendTelemetryEvent } from '~/lib/telemetry'
 
 interface Props {

@@ -6,7 +6,7 @@ import PricingComputeSection from '~/components/Pricing/PricingComputeSection'
 import PricingDiskSection from '~/components/Pricing/PricingDiskSection'
 import PricingFAQs from '~/components/Pricing/PricingFAQs'
 import { ArrowUpRight } from 'lucide-react'
-import { Button } from '../../packages/ui'
+import { Button } from 'ui'
 import { InfoTooltip } from 'ui-patterns/info-tooltip'
 
 import HashAnchorScroll from './HashAnchorScroll'

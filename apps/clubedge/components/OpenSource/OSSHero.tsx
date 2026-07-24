@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { useTheme } from 'next-themes'
 import React from 'react'
 import { useWindowSize } from 'react-use'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 import styles from './hero.module.css'
 

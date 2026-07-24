@@ -2,7 +2,7 @@ import Panel from '~/components/Panel'
 import { detectBrowser, isBrowser } from 'common'
 import Link from 'next/link'
 import React from 'react'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 const ProductCard = ({
   className,

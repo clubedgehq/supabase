@@ -4,8 +4,8 @@ import { useBreakpoint } from 'common'
 import { range } from 'lib/helpers'
 import type { GoTweetsSection } from 'marketing'
 import Link from 'next/link'
-import { topTweets } from '../../packages/shared-data/tweets'
-import { Button, cn } from '../../packages/ui'
+import { topTweets } from 'shared-data/tweets'
+import { Button, cn } from 'ui'
 import { TweetCard } from 'ui-patterns/TweetCard'
 
 function MobileCarousel() {

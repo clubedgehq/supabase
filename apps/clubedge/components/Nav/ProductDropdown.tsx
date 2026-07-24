@@ -5,7 +5,7 @@ import { ChevronRight, Sparkles } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { NavigationMenuLink } from '../../packages/ui'
+import { NavigationMenuLink } from 'ui'
 import { TextLink } from 'ui-patterns/TextLink'
 
 import MenuItem from './MenuItem'

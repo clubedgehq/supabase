@@ -1,7 +1,7 @@
 import { Check, ChevronDown, ChevronsUpDown, ChevronUp, ExternalLink, Minus } from 'lucide-react'
 import Link from 'next/link'
 import { useState } from 'react'
-import { Badge, cn, Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '../../packages/ui'
+import { Badge, cn, Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from 'ui'
 
 import type { FeatureType } from '@/data/features'
 import { PRODUCT_STAGES } from '@/data/features'

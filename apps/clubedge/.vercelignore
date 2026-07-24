@@ -63,21 +63,14 @@ Thumbs.db
 **/node_modules/@code-hike
 **/node_modules/framer-motion
 
-# Other workspace apps - exclude completely to save install time
-/apps/www
-/apps/studio
-/apps/learn
-/apps/lite-studio
-
-# Exclude packages we don't need
-/packages/ai-commands
-/packages/common
-/packages/config
-/packages/dev-tools
-/packages/eslint-config-supabase
-/packages/icons
-/packages/marketing
-/packages/shared-data
-/packages/tsconfig
-/packages/ui
-/packages/ui-patterns 
+# Other apps (since we're only deploying www)
+../design-system
+../docs
+../studio
+../ui-library
+../../examples
+../../tests
+../../supabase
+../../packages/ui-patterns
+../../packages/ui
+../../packages/shared-data 

@@ -1,6 +1,6 @@
 import staticContent from '.generated/staticContent/_index.json'
 import { useSendTelemetryEvent } from '~/lib/telemetry'
-import { Button } from '../../packages/ui'
+import { Button } from 'ui'
 
 export const kFormatter = (num: number) => {
   const kFormat = Math.floor(num / 1000)

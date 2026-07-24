@@ -1,7 +1,7 @@
 import dayjs from 'dayjs'
 import { useEffect, useState } from 'react'
 import { Area, AreaChart, ResponsiveContainer, Tooltip, XAxis } from 'recharts'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 const CHART_COLORS = {
   TICK: 'var(--background-overlay-hover)',

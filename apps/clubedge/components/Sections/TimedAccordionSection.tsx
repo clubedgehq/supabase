@@ -4,7 +4,7 @@ import { useBreakpoint } from 'common'
 import { domAnimation, LazyMotion, m, useAnimation, useInView } from 'framer-motion'
 import React, { useEffect, useRef, useState, type ReactNode } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 interface TabProps {
   label: string | React.ReactNode

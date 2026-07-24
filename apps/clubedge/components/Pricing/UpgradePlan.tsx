@@ -4,7 +4,7 @@ import { Organization } from '~/data/organizations'
 import { Check, ChevronsUpDown, Plus } from 'lucide-react'
 import Link from 'next/link'
 import { useState } from 'react'
-import { PlanId } from '../../packages/shared-data/plans'
+import { PlanId } from 'shared-data/plans'
 import {
   Button,
   ButtonProps,
@@ -28,7 +28,7 @@ import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from '../../packages/ui'
+} from 'ui'
 
 interface UpgradePlanProps {
   organizations?: Organization[]

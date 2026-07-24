@@ -1,5 +1,5 @@
 import React from 'react'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 import { range } from 'lib/helpers'
 
 interface Props {

@@ -1,6 +1,6 @@
 import Examples from 'data/Examples'
 import Link from 'next/link'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 import SectionContainer from '@/components/Layouts/SectionContainer'
 

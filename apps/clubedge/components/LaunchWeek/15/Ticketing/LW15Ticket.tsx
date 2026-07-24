@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 import useLw15ConfData, { UserTicketData } from '../hooks/use-conf-data'
 import { FifteenSVG, LWSVG } from '../lw15.components'
 import Image from 'next/image'

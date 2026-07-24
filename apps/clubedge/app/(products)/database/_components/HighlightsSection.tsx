@@ -2,7 +2,7 @@ import SectionContainerWithCn from '~/components/Layouts/SectionContainerWithCn'
 import { Check } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Badge, Button } from '../../packages/ui'
+import { Badge, Button } from 'ui'
 
 type Highlight = {
   title: string

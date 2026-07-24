@@ -3,7 +3,7 @@
 import { type ClassValue } from 'clsx'
 import { AppWindow, Database, Globe } from 'lucide-react'
 import { ReactNode } from 'react'
-import { PRODUCT_MODULES } from '../../packages/shared-data/products'
+import { PRODUCT_MODULES } from 'shared-data/products'
 
 export interface AdventDay {
   icon?: ReactNode // use svg jsx with 34x34px viewport

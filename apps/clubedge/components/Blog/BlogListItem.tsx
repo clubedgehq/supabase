@@ -1,7 +1,7 @@
 import dayjs from 'dayjs'
 import Link from 'next/link'
 import React from 'react'
-import { Badge } from '../../packages/ui'
+import { Badge } from 'ui'
 
 import AuthorAvatars from './AuthorAvatars'
 import blogAuthors from '@/lib/authors.json'

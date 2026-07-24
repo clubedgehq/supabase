@@ -1,7 +1,7 @@
 import { ArrowUpRight, Check, Copy } from 'lucide-react'
 import Link from 'next/link'
 import React, { useState } from 'react'
-import { Button, cn, Tooltip, TooltipContent, TooltipTrigger } from '../../packages/ui'
+import { Button, cn, Tooltip, TooltipContent, TooltipTrigger } from 'ui'
 import { TextLink } from 'ui-patterns/TextLink'
 
 import SectionContainer from '@/components/Layouts/SectionContainer'

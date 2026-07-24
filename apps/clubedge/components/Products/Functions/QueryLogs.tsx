@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { AlertCircle, Info } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { useInterval } from 'react-use'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 enum STATUS {
   LOG = 'LOG',

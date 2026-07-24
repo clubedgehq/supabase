@@ -1,5 +1,5 @@
 import React, { PropsWithChildren, useState, useRef, useCallback, useEffect } from 'react'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion, useInView } from 'framer-motion'

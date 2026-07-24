@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 const SYNC_WIDTH = 48
 

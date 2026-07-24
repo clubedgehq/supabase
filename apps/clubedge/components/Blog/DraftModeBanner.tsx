@@ -1,6 +1,6 @@
 import { AlertTriangle, X } from 'lucide-react'
 import Link from 'next/link'
-import { Button } from '../../packages/ui'
+import { Button } from 'ui'
 
 interface DraftModeBannerProps {
   onDismiss?: () => void

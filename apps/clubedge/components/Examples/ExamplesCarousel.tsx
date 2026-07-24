@@ -9,7 +9,7 @@ import { useRef } from 'react'
 import SwiperCore from 'swiper'
 import { Navigation, Pagination } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Button, cn } from '../../packages/ui'
+import { Button, cn } from 'ui'
 
 // install Swiper modules
 SwiperCore.use([Navigation, Pagination])

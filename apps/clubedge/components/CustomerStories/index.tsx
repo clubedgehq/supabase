@@ -12,7 +12,7 @@ import dynamic from 'next/dynamic'
 import Image from 'next/image'
 import Link from 'next/link'
 import { PropsWithChildren } from 'react'
-import { Button, cn } from '../../packages/ui'
+import { Button, cn } from 'ui'
 
 const CustomersSliderMobile = dynamic(() => import('./CustomersSliderMobile'))
 const CutomsersSliderDesktop = dynamic(() => import('./CutomsersSliderDesktop'))

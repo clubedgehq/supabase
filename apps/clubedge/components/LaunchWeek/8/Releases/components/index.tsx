@@ -1,4 +1,4 @@
-import { Badge } from '../../packages/ui'
+import { Badge } from 'ui'
 
 import Link from 'next/link'
 import Image from 'next/image'

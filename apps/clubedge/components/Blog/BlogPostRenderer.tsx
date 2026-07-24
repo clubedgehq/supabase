@@ -2,7 +2,7 @@ import dayjs from 'dayjs'
 import Image from 'next/image'
 import Link from 'next/link'
 import type { PostReturnType, ProcessedBlogData, StaticAuthor, Tag } from 'types/post'
-import { Badge, cn } from '../../packages/ui'
+import { Badge, cn } from 'ui'
 
 import { CTASection } from '../CTASection'
 import SectionContainerWithCn from '../Layouts/SectionContainerWithCn'

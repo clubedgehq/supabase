@@ -2,7 +2,7 @@
 
 import { Triangle } from 'lucide-react'
 import type { PropsWithChildren } from 'react'
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '../../packages/ui'
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from 'ui'
 
 type BlogCollapsibleProps = PropsWithChildren<{
   title: string

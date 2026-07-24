@@ -3,8 +3,8 @@ import { range } from 'lib/helpers'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React from 'react'
-import { topTweets } from '../../packages/shared-data/tweets'
-import { cn } from '../../packages/ui'
+import { topTweets } from 'shared-data/tweets'
+import { cn } from 'ui'
 import { TweetCard } from 'ui-patterns/TweetCard'
 
 interface Props {

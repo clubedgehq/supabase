@@ -3,8 +3,8 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
-import { topTweets } from '../../packages/shared-data/tweets'
-import { Button } from '../../packages/ui'
+import { topTweets } from 'shared-data/tweets'
+import { Button } from 'ui'
 import { TweetCard } from 'ui-patterns/TweetCard'
 
 const COLS = 5

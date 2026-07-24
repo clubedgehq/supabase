@@ -1,5 +1,5 @@
 import React, { type FC, type ReactNode } from 'react'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 import { TextLink } from 'ui-patterns/TextLink'
 
 import CodeWindow from '@/components/CodeWindow'

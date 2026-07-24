@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { Button } from '../../packages/ui'
+import { Button } from 'ui'
 import SectionContainer from '~/components/Layouts/SectionContainer'
 
 const EnterpriseCta = () => {

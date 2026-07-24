@@ -1,4 +1,4 @@
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 import SectionContainer from '../../Layouts/SectionContainer'
 

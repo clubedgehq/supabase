@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { Button, cn } from '../../packages/ui'
+import { Button, cn } from 'ui'
 import styles from '~/styles/animations.module.css'
 import AnnouncementBadge from '../Announcement/Badge'
 import { PlayCircle } from 'lucide-react'

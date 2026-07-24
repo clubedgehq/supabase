@@ -2,7 +2,7 @@ import { remarkCodeHike } from '@code-hike/mdx'
 import bundleAnalyzer from '@next/bundle-analyzer'
 import nextMdx from '@next/mdx'
 import { withSentryConfig } from '@sentry/nextjs'
-import codeHikeTheme from './config/code-hike.theme.json' with { type: 'json' }
+import codeHikeTheme from 'config/code-hike.theme.json' with { type: 'json' }
 import rehypeSlug from 'rehype-slug'
 import remarkGfm from 'remark-gfm'
 
@@ -53,7 +53,10 @@ const nextConfig = {
     // needed to make the octokit packages work in /changelog
     '@octokit/plugin-paginate-graphql',
   ],
-
+  experimental: {
+    // needed to make the octokit packages work in /changelog
+    esmExternals: 'loose',
+  },
   /**
    * Exclude huge directories from being traced into serverless functions
    * to avoid the max size limit for Serverless Functions on Vercel:

@@ -3,7 +3,7 @@ import MagnifiedProducts from '~/components/MagnifiedProducts'
 import { PRODUCT_SHORTNAMES } from '~/lib/constants'
 import Link from 'next/link'
 import React from 'react'
-import { Button, cn } from '../../packages/ui'
+import { Button, cn } from 'ui'
 
 export type Products = PRODUCT_SHORTNAMES
 

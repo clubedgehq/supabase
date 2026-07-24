@@ -1,7 +1,7 @@
 import { ChevronRightIcon, VideoCameraIcon } from '@heroicons/react/solid'
 import Link from 'next/link'
 import React, { PropsWithChildren } from 'react'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 import { TextLink } from 'ui-patterns/TextLink'
 
 import Panel from './Panel'

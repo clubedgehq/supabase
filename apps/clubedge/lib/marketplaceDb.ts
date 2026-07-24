@@ -1,5 +1,5 @@
 import { toPartner as miscDbToPartner, Partner } from '~/types/partners'
-import { createMarketplaceClient, fullImageUrl, type Listing } from '../../packages/common/marketplace-client'
+import { createMarketplaceClient, fullImageUrl, type Listing } from 'common/marketplace-client'
 
 import supabase from './supabaseMisc'
 

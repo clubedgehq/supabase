@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { cn, TabsContent, TabsList, TabsTrigger, Tabs as UITabs } from '../../packages/ui'
+import { cn, TabsContent, TabsList, TabsTrigger, Tabs as UITabs } from 'ui'
 
 export interface TabsProps {
   children: React.ReactNode

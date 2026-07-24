@@ -5,7 +5,7 @@ import { AnimatePresence, motion, useInView } from 'framer-motion'
 import { ArrowDownUp, ChevronDown, Filter, Plus, Search } from 'lucide-react'
 import Link from 'next/link'
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 const ICONS = { Search, Plus, ArrowDownUp, Filter } as const
 

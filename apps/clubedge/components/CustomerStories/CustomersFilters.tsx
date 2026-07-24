@@ -15,7 +15,7 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '../../packages/ui'
+} from 'ui'
 
 interface Props {
   allCustomers: PostTypes[]

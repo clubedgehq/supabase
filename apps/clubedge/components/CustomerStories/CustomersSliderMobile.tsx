@@ -4,7 +4,7 @@ import 'swiper/css'
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 import { CompositionCol } from '.'
 import type { CompositionColType } from '.'
 

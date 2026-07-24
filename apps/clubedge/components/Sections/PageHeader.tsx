@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 import SectionContainerWithCn from '../Layouts/SectionContainerWithCn'
 

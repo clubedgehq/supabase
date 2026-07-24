@@ -1,5 +1,5 @@
 import { range } from 'lib/helpers'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 interface Props {
   showHeading?: boolean

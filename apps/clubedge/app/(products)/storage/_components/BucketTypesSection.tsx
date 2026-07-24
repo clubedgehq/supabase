@@ -1,7 +1,7 @@
 import SectionContainerWithCn from '~/components/Layouts/SectionContainerWithCn'
 import { Check } from 'lucide-react'
 import Link from 'next/link'
-import { Button } from '../../packages/ui'
+import { Button } from 'ui'
 
 const BUCKET_TYPES = [
   {

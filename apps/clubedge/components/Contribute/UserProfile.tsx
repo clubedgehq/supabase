@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { Badge, Button } from '../../packages/ui'
+import { Badge, Button } from 'ui'
 import { DiscordIcon, GitHubIcon, RedditIcon } from '~/components/Contribute/Icons'
 import { getUserActivity } from '~/data/contribute'
 import type { ThreadRow } from '~/types/contribute'

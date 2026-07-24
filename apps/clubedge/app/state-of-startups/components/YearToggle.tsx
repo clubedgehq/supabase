@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 import { SURVEY_YEARS, useYear, type SurveyYear } from './year-context'
 

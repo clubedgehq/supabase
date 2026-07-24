@@ -1,6 +1,6 @@
 import { promises as fs } from 'node:fs'
 import path from 'node:path'
-import { isFeatureEnabled } from '../../packages/common/enabled-features'
+import { isFeatureEnabled } from 'common/enabled-features'
 
 import { MD_CONTENT } from '@/app/api-v2/md/content.generated'
 import { generatePricingContent } from '@/lib/llms'

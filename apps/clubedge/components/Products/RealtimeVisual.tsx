@@ -1,7 +1,7 @@
 import { isBrowser, useReducedMotion } from 'common'
 import Image from 'next/image'
 import React, { useEffect, useRef, useState } from 'react'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 interface Props {
   className?: string

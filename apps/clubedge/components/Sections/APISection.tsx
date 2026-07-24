@@ -5,7 +5,7 @@ import { ArrowUpRight } from 'lucide-react'
 import Link from 'next/link'
 import { useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Button, cn } from '../../packages/ui'
+import { Button, cn } from 'ui'
 
 import CodeBlock, { LANG } from '../CodeBlock/CodeBlock'
 

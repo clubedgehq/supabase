@@ -2,7 +2,7 @@
 
 import { useSendTelemetryEvent } from '~/lib/telemetry'
 import Link from 'next/link'
-import { Button } from '../../packages/ui'
+import { Button } from 'ui'
 
 export function CTASection() {
   const sendTelemetryEvent = useSendTelemetryEvent()

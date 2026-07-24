@@ -8,7 +8,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState, type ReactNode } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Button } from '../../packages/ui'
+import { Button } from 'ui'
 
 interface TabProps {
   label: string

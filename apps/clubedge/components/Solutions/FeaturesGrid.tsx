@@ -1,6 +1,6 @@
 import Panel from '~/components/Panel'
 import React from 'react'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 import SectionContainer from '../Layouts/SectionContainer'
 import styles from './features-grid.module.css'

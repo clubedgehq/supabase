@@ -1,5 +1,5 @@
-import { plans } from '../../packages/shared-data/plans'
-import { pricing } from '../../packages/shared-data/pricing'
+import { plans } from 'shared-data/plans'
+import { pricing } from 'shared-data/pricing'
 
 import addOnTable from '@/data/PricingAddOnTable.json'
 import pricingFaq from '@/data/PricingFAQ.json'

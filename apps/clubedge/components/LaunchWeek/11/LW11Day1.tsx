@@ -1,6 +1,6 @@
 import { ArrowRight } from 'lucide-react'
 import Link from 'next/link'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 import { ExpandableVideo } from 'ui-patterns/ExpandableVideo'
 import { DayLink } from './Releases/components'
 import { WeekDayProps } from './Releases/data'

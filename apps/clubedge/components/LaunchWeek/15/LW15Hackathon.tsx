@@ -4,7 +4,7 @@ import { DEFAULT_EASE } from 'lib/animations'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { FC } from 'react'
-import { Button, cn } from '../../packages/ui'
+import { Button, cn } from 'ui'
 
 const MotionImage = motion(Image)
 

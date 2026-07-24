@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 import { ComponentType, useEffect, useEffectEvent, useState } from 'react'
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../../packages/ui'
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from 'ui'
 
 export type LegalDocVersion = {
   id: string

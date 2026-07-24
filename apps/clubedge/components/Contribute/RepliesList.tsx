@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
-import { Badge, Button, Card, CardContent, CardFooter, CardHeader, CardTitle } from '../../packages/ui'
+import { Badge, Button, Card, CardContent, CardFooter, CardHeader, CardTitle } from 'ui'
 
 import { markdownComponents } from './markdownComponents'
 

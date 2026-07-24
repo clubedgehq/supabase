@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Button, Input, Label } from '../../packages/ui'
+import { Button, Input, Label } from 'ui'
 
 const isValidEmail = (email: string): boolean => {
   const emailPattern = /^[\w-\.+]+@([\w-]+\.)+[\w-]{2,8}$/

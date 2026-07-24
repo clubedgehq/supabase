@@ -1,4 +1,4 @@
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 import Footer from '@/components/Footer/index'
 import Nav from '@/components/Nav/index'

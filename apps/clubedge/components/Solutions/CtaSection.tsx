@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { Button, cn } from '../../packages/ui'
+import { Button, cn } from 'ui'
 
 import SectionContainer from '@/components/Layouts/SectionContainer'
 

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { SupabaseClient } from '@supabase/supabase-js'
 import useConfData from '../hooks/use-conf-data'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 export interface Meetup {
   id?: any

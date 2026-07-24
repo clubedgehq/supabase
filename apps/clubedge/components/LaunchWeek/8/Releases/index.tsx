@@ -1,8 +1,8 @@
 import SectionContainer from '~/components/Layouts/SectionContainer'
-import { useBreakpoint } from '../../packages/common/hooks/useBreakpoint'
+import { useBreakpoint } from 'common/hooks/useBreakpoint'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger, cn } from '../../packages/ui'
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger, cn } from 'ui'
 
 import {
   AccordionHeader,

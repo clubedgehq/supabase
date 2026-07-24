@@ -1,6 +1,6 @@
 import { Check } from 'lucide-react'
 import Link from 'next/link'
-import { Badge, Button, ButtonProps } from '../../packages/ui'
+import { Badge, Button, ButtonProps } from 'ui'
 import { Image } from 'ui-patterns/Image'
 
 import Panel from '@/components/Panel'

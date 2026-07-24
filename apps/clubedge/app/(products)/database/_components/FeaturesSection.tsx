@@ -4,7 +4,7 @@ import SectionContainerWithCn from '~/components/Layouts/SectionContainerWithCn'
 import { AnimatePresence, motion } from 'framer-motion'
 import { Key } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 import { PostgresGlow } from './Shaders/PostgresGlow'
 

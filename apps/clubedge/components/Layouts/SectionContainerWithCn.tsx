@@ -1,6 +1,6 @@
 import { cva, type VariantProps } from 'class-variance-authority'
 import { forwardRef, Ref } from 'react'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 
 const sectionContainerVariants = cva('section-container relative', {
   variants: {

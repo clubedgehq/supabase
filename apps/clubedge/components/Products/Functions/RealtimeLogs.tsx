@@ -2,7 +2,7 @@ import dayjs from 'dayjs'
 import { AnimatePresence, motion } from 'framer-motion'
 import { FC, useEffect, useState } from 'react'
 import { useInterval } from 'react-use'
-import { Badge, cn } from '../../packages/ui'
+import { Badge, cn } from 'ui'
 
 interface Props {
   isActive?: boolean

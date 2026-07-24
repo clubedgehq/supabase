@@ -1,6 +1,6 @@
 import styles from './local-dx-grid.module.css'
 import React from 'react'
-import { cn } from '../../packages/ui'
+import { cn } from 'ui'
 import { useBreakpoint } from 'common'
 import page from '~/data/products/functions/page'
 import Panel from '~/components/Panel'
