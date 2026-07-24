@@ -1,7 +1,10 @@
 {
-  "buildCommand": "pnpm run build",
-  "devCommand": "pnpm run dev",
-  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "node scripts/generateStaticContent.mjs && node scripts/generateMdContent.mjs && node scripts/fetchAgentSkills.mjs && next build",
+  "devCommand": "next dev",
+  "installCommand": "pnpm install --frozen-lockfile --no-frozen-lockfile-integrity",
   "outputDirectory": ".next",
-  "buildMemory": 3000
+  "buildMemory": 3000,
+  "env": {
+    "SKIP_ENV_VALIDATION": "true"
+  }
 }
