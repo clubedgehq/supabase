@@ -1,4 +1,4 @@
-# supabase.com
+# Clubedge
 
 ## Overview
 
