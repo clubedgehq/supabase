@@ -8,8 +8,7 @@
   },
   "dependencies": {
     "@typescript/native": "catalog:",
-    "typescript": "catalog:",
-    "@supabase/build-icons": "workspace:*"
+    "typescript": "catalog:"
   },
   "devDependencies": {
     "@types/react": "catalog:"
