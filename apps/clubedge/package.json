@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "dev": "pnpm run content:build && next --port 3000",
-    "build": "pnpm run content:build && next build",
+    "dev": "next --port 3000",
+    "build": "pnpm run content:build && next build --no-swcMinify",
     "export": "next export",
     "start": "next start",
     "lint": "eslint .",
@@ -16,7 +16,7 @@
     "content:build": "node scripts/generateStaticContent.mjs && node scripts/generateMdContent.mjs && node scripts/fetchAgentSkills.mjs",
     "test": "vitest --run",
     "test:watch": "vitest watch",
-    "postbuild": "node ./internals/generate-sitemap.mjs && ./../../scripts/upload-static-assets.sh"
+    "postbuild": "node ./internals/generate-sitemap.mjs"
   },
   "dependencies": {
     "@bsmnt/scrollytelling": "^0.3.3",
