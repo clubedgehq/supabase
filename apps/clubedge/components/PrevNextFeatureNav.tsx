@@ -12,7 +12,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from 'ui'
+} from '../../packages/ui'
 
 interface Props {
   className?: string

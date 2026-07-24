@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { Fragment, useMemo } from 'react'
 
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 import pricingAddOn from '~/data/PricingAddOnTable.json'
 import { IconPricingIncludedCheck, IconPricingMinus } from './PricingIcons'
 

@@ -2,7 +2,7 @@
 
 import { ChevronLeft, ChevronRight, Code, Eye } from 'lucide-react'
 import { useState } from 'react'
-import { Button } from 'ui'
+import { Button } from '../../packages/ui'
 import { CodeBlock } from 'ui-patterns/CodeBlock'
 
 import SandpackWrapper from './sandpack'

@@ -5,7 +5,7 @@ import { Check } from 'lucide-react'
 import { useTheme } from 'next-themes'
 import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
-import { Button } from 'ui'
+import { Button } from '../../packages/ui'
 
 import useConfData from '../hooks/use-conf-data'
 import supabase from '../supabase'

@@ -1,4 +1,4 @@
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 interface TwoOptionToggleProps {
   options: any

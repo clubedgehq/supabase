@@ -1,6 +1,6 @@
 import SectionContainerWithCn from '~/components/Layouts/SectionContainerWithCn'
 import Link from 'next/link'
-import { Button } from 'ui'
+import { Button } from '../../packages/ui'
 
 export function Hero() {
   return (

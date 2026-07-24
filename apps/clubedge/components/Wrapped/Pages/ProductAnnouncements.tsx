@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 import { AnimatedGridBackground } from '../AnimatedGridBackground'
 

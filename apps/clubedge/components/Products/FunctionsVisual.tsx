@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Typed from 'typed.js'
 import type { TypedOptions } from 'typed.js'
 import { useBreakpoint } from 'common'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 interface Props {
   className?: string

@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { range } from 'lib/helpers'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 import { CompositionCol } from '.'
 import type { CompositionColType } from '.'

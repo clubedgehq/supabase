@@ -18,7 +18,7 @@ import {
   Input,
   Separator,
   TextArea,
-} from 'ui'
+} from '../../packages/ui'
 import {
   MultiSelector,
   MultiSelectorContent,

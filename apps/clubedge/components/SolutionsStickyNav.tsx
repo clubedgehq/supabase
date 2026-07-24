@@ -17,7 +17,7 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from 'ui'
+} from '../../packages/ui'
 
 interface Props {
   activeItem: SolutionTypes

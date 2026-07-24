@@ -22,7 +22,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from 'ui'
+} from '../../packages/ui'
 
 import { FilterPopover } from './FilterPopover'
 import { ChannelIcon, DiscordIcon, GitHubIcon, RedditIcon } from './Icons'

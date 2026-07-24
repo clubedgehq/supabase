@@ -1,7 +1,7 @@
 import { cva, type VariantProps } from 'class-variance-authority'
 import { KeyboardEvent, ReactNode, useRef } from 'react'
 import { useKey } from 'react-use'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 import { useCommandMenuOpen } from 'ui-patterns/CommandMenu'
 
 const actionButtonVariants = cva(

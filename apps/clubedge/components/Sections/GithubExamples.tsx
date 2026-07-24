@@ -6,7 +6,7 @@ import { useRef } from 'react'
 import SwiperCore from 'swiper'
 import { Navigation, Pagination } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Button } from 'ui'
+import { Button } from '../../packages/ui'
 
 import ExampleCard from '../ExampleCard'
 

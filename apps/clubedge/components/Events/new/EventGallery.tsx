@@ -1,4 +1,4 @@
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 import { EventGalleryFilters } from './EventGalleryFilters'
 import { EventList } from './EventList'

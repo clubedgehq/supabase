@@ -2,7 +2,7 @@
 
 import { useForceDeepDark } from 'lib/theme.utils'
 import { usePathname } from 'next/navigation'
-import { PRODUCT_NAMES } from 'shared-data/products'
+import { PRODUCT_NAMES } from '../../packages/shared-data/products'
 
 import ProductsNav from '../../components/Products/ProductsNav'
 import DefaultLayout from '@/components/Layouts/Default'

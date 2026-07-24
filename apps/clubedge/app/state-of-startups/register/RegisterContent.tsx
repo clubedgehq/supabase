@@ -6,7 +6,7 @@ import dynamic from 'next/dynamic'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
-import { Button } from 'ui'
+import { Button } from '../../packages/ui'
 import UnicornScene from 'unicornstudio-react/next'
 
 import { DecorativeProgressBar } from '../components/DecorativeProgressBar'

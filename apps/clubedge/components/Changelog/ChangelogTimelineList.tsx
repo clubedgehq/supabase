@@ -4,7 +4,7 @@ import dayjs from 'dayjs'
 import { GitCommit } from 'lucide-react'
 import Link from 'next/link'
 import type { MouseEvent } from 'react'
-import { Badge, cn } from 'ui'
+import { Badge, cn } from '../../packages/ui'
 
 function groupChangelogIndexByYear(
   items: ChangelogTimelineIndexItem[]

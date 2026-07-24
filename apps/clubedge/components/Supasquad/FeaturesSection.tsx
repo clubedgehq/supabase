@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import dynamic from 'next/dynamic'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 import SectionContainer from '~/components/Layouts/SectionContainer'
 import type {
   Feature,

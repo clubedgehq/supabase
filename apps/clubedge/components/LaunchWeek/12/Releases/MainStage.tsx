@@ -3,7 +3,7 @@ import { mainDays } from './data'
 
 import SectionContainer from '~/components/Layouts/SectionContainer'
 import DaySection from './components/DaySection'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 import { useTheme } from 'next-themes'
 
 const MainStage = ({ className }: { className?: string }) => {

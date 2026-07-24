@@ -1,4 +1,4 @@
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 export function SurveySectionBreak({ className }: { className?: string }) {
   return (

@@ -4,7 +4,7 @@ import {
   SelectItem as SelectItem,
   SelectTrigger as SelectTrigger,
   SelectValue as SelectValue,
-} from 'ui'
+} from '../../packages/ui'
 
 // Country data with flags and names (alphabetically sorted)
 const countries = [

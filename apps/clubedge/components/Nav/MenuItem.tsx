@@ -1,7 +1,7 @@
 import { ChevronRight } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 const MenuItem = React.forwardRef<
   React.ElementRef<'a'>,

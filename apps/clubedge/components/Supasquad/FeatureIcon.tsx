@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 import type { Feature } from '~/data/open-source/contributing/supasquad.utils'
 import {
   Award,

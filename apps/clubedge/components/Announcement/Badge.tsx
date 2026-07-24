@@ -1,7 +1,7 @@
 import { ChevronRightIcon } from 'lucide-react'
 import Link from 'next/link'
 import React, { ReactNode } from 'react'
-import { Badge, cn } from 'ui'
+import { Badge, cn } from '../../packages/ui'
 
 interface Props {
   url: string

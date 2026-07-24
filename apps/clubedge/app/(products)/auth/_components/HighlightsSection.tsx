@@ -1,7 +1,7 @@
 import SectionContainerWithCn from '~/components/Layouts/SectionContainerWithCn'
 import { Check } from 'lucide-react'
 import Link from 'next/link'
-import { Button } from 'ui'
+import { Button } from '../../packages/ui'
 
 const HIGHLIGHTS = [
   {

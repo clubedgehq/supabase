@@ -7,7 +7,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useMemo, useState } from 'react'
 import type PostTypes from 'types/post'
-import { Button, InputGroup, InputGroupAddon, InputGroupInput } from 'ui'
+import { Button, InputGroup, InputGroupAddon, InputGroupInput } from '../../packages/ui'
 
 import BlogViewToggle from '../../../../components/Blog/BlogViewToggle'
 import DefaultLayout from '@/components/Layouts/Default'

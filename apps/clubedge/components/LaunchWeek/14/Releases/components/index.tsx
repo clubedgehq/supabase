@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { IconDocumentation, IconMicSolid, IconProductHunt, IconYoutubeSolid, cn } from 'ui'
+import { IconDocumentation, IconMicSolid, IconProductHunt, IconYoutubeSolid, cn } from '../../packages/ui'
 import { Music } from 'lucide-react'
 
 import Link from 'next/link'

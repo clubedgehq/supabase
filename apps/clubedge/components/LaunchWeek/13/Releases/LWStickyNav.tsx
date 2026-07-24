@@ -10,7 +10,7 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from 'ui'
+} from '../../packages/ui'
 
 import { mainDays, WeekDayProps } from './data'
 

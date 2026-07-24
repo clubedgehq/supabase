@@ -4,7 +4,7 @@ import SectionContainerWithCn from '~/components/Layouts/SectionContainerWithCn'
 import { AnimatePresence, motion } from 'framer-motion'
 import { ChevronDown, Filter, Key, List } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
-import { Button } from 'ui'
+import { Button } from '../../packages/ui'
 
 const columns = [
   { name: 'id', format: 'int8', isPrimaryKey: true },

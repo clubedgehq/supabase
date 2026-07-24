@@ -2,7 +2,7 @@
 
 import { useSendTelemetryEvent } from '~/lib/telemetry'
 import Link from 'next/link'
-import { Button } from 'ui'
+import { Button } from '../../packages/ui'
 
 import SectionContainer from '@/components/Layouts/SectionContainer'
 

@@ -2,7 +2,7 @@ import SectionContainer from '~/components/Layouts/SectionContainer'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { Button, cn } from 'ui'
+import { Button, cn } from '../../packages/ui'
 
 const LW11Header = ({ className }: { className?: string }) => {
   return (

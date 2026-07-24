@@ -1,7 +1,7 @@
 import SectionContainer from '~/components/Layouts/SectionContainer'
 import Link from 'next/link'
 import React, { type FC, type ReactNode } from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 interface Props {
   id: string

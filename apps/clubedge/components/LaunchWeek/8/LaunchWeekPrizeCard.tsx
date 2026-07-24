@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import React from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 type animateFromType = 'left' | 'right' | 'up' | 'down' | 'opacityOnly'
 

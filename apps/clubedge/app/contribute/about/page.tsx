@@ -1,4 +1,4 @@
-import { Realtime } from 'icons'
+import { Realtime } from '../../packages/icons'
 import {
   ArrowLeft,
   Award,
@@ -16,7 +16,7 @@ import {
 } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Badge, Button, Separator, cn } from 'ui'
+import { Badge, Button, Separator, cn } from '../../packages/ui'
 import { GithubAvatar } from '~/components/Contribute/GithubAvatar'
 import DefaultLayout from '~/components/Layouts/Default'
 import SectionContainer from '~/components/Layouts/SectionContainer'

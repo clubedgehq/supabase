@@ -3,7 +3,7 @@
 import pricingFaq from '~/data/PricingFAQ.json'
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from 'ui'
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../../packages/ui'
 
 const PricingFAQs = () => {
   return (

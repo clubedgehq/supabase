@@ -10,7 +10,7 @@ import {
 } from 'framer-motion'
 import { useBreakpoint } from 'common'
 import { Products } from './Sections/ProductsCta'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 import { DEFAULT_TRANSITION } from '~/lib/animations'
 import {
@@ -20,7 +20,7 @@ import {
   PRODUCT_NAMES,
   PRODUCT_SHORTNAMES,
   products as PRODUCTS,
-} from 'shared-data/products'
+} from '../../packages/shared-data/products'
 
 function MagnifiedProducts({ currentProduct }: { currentProduct: Products | string }) {
   let mouseX = useMotionValue(Infinity)

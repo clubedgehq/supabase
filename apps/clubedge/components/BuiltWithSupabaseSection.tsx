@@ -1,6 +1,6 @@
 import Examples from 'data/Examples'
 import Link from 'next/link'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 const EXAMPLE_LOGO: Record<string, { src: string; invert?: boolean }> = {
   'Stripe Subscriptions Starter': { src: '/images/logos/frameworks/stripe.svg' },

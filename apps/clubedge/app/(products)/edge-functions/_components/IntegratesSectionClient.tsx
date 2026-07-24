@@ -5,7 +5,7 @@ import { AnimatePresence, motion, useInView } from 'framer-motion'
 import { Database, HardDrive, Shield, Webhook, Zap } from 'lucide-react'
 import Link from 'next/link'
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 const ICONS = { Zap, Database, Webhook, Shield, HardDrive } as const
 

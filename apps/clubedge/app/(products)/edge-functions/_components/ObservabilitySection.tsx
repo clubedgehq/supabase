@@ -3,7 +3,7 @@
 import SectionContainerWithCn from '~/components/Layouts/SectionContainerWithCn'
 import dynamic from 'next/dynamic'
 import { useState } from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 const RealtimeLogs = dynamic(() => import('~/components/Products/Functions/RealtimeLogs'))
 const QueryLogs = dynamic(() => import('~/components/Products/Functions/QueryLogs'))

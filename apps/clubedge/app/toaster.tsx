@@ -1,7 +1,7 @@
 'use client'
 
 import { useTheme } from 'next-themes'
-import { SonnerToaster } from 'ui'
+import { SonnerToaster } from '../../packages/ui'
 
 export function Toaster() {
   const { theme } = useTheme()

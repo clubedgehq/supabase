@@ -2,7 +2,7 @@ import { useSendTelemetryEvent } from '~/lib/telemetry'
 import { CircleAlert } from 'lucide-react'
 import Link from 'next/link'
 import { FC, useEffect, useState } from 'react'
-import { Button, cn, Input, Label, Separator, TextArea } from 'ui'
+import { Button, cn, Input, Label, Separator, TextArea } from '../../packages/ui'
 import { Alert } from 'ui/src/components/shadcn/ui/alert'
 
 interface FormData {

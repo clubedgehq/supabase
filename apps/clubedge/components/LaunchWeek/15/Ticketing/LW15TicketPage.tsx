@@ -3,7 +3,7 @@ import SectionContainer from 'components/Layouts/SectionContainer'
 import dayjs from 'dayjs'
 import Link from 'next/link'
 import { useState } from 'react'
-import { Button, cn } from 'ui'
+import { Button, cn } from '../../packages/ui'
 
 import { updateTicketColors, useRegistration } from '../hooks/use-registration'
 import { FifteenSVG, LW15ThemeSwitcher, LWSVG } from '../lw15.components'

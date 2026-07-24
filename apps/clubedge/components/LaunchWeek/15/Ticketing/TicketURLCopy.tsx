@@ -1,7 +1,7 @@
 import { LW14_URL } from 'lib/constants'
 import { Check, Copy } from 'lucide-react'
 import { useRef, useState } from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 import { UserTicketData } from '../hooks/use-conf-data'
 

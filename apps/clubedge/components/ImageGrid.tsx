@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 interface iImages {
   name: string

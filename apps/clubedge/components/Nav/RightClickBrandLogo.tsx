@@ -12,7 +12,7 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from 'ui'
+} from '../../packages/ui'
 
 import SupabaseWordmark from './SupabaseWordmark'
 

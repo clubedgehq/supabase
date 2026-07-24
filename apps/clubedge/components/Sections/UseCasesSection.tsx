@@ -5,7 +5,7 @@ import { domAnimation, LazyMotion, m, useInView } from 'framer-motion'
 import { ArrowUpRight } from 'lucide-react'
 import Link from 'next/link'
 import { ReactNode, useRef } from 'react'
-import { Button } from 'ui'
+import { Button } from '../../packages/ui'
 
 interface UseCase {
   img?: string

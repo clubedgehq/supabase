@@ -2,7 +2,7 @@ import { useState } from 'react'
 // Import Swiper React components
 import Link from 'next/link'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Button } from 'ui'
+import { Button } from '../../packages/ui'
 import CodeBlock from '../CodeBlock/CodeBlock'
 import { ArrowUpRight } from 'lucide-react'
 

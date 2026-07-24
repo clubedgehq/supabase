@@ -1,4 +1,4 @@
-import { Button } from 'ui'
+import { Button } from '../../packages/ui'
 import Link from 'next/link'
 
 export function ScheduleInfo() {

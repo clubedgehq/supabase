@@ -2,7 +2,7 @@ import 'swiper/css'
 
 import React, { useState, useEffect, useRef } from 'react'
 import { LazyMotion, domAnimation, m, useAnimation, useInView } from 'framer-motion'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Panel from '../Panel'
 import { useBreakpoint } from 'common'

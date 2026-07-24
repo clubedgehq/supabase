@@ -1,7 +1,7 @@
 'use client'
 
 import { useCopyMarkdownFromUrl } from 'common'
-import { Chatgpt, Claude } from 'icons'
+import { Chatgpt, Claude } from '../../packages/icons'
 import { Check, ChevronDown, Copy } from 'lucide-react'
 import {
   Button,
@@ -10,7 +10,7 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from 'ui'
+} from '../../packages/ui'
 
 import { SITE_ORIGIN } from '@/lib/constants'
 

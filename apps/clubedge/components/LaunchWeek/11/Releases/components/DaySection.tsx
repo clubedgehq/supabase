@@ -5,7 +5,7 @@ import { Edit } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 import { WeekDayProps } from '../data'
 

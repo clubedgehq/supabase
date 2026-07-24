@@ -1,6 +1,6 @@
 import { promises as fs } from 'node:fs'
 import path from 'node:path'
-import { isFeatureEnabled } from 'common/enabled-features'
+import { isFeatureEnabled } from '../../packages/common/enabled-features'
 import matter from 'gray-matter'
 
 export const dynamic = 'force-dynamic'

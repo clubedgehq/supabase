@@ -1,7 +1,7 @@
 import ProductIcon from 'components/ProductIcon'
 import Link from 'next/link'
 import { Fragment, ReactNode } from 'react'
-import { FeatureKey } from 'shared-data/pricing'
+import { FeatureKey } from '../../packages/shared-data/pricing'
 import { InfoTooltip } from 'ui-patterns/info-tooltip'
 
 import { IconPricingIncludedCheck, IconPricingMinus } from './PricingIcons'

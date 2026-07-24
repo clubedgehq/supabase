@@ -1,7 +1,7 @@
 import { detectBrowser, isBrowser } from 'common'
 import Image from 'next/image'
 import React, { useEffect, useRef, useState } from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 interface Props {
   className?: string

@@ -4,7 +4,7 @@ import { useEvents } from '~/app/events/context'
 import { formatHosts } from '~/lib/eventsUtils'
 import { ArrowRightIcon, CalendarIcon, MapPinIcon, VideoIcon } from 'lucide-react'
 import Link from 'next/link'
-import { Badge, Button } from 'ui'
+import { Badge, Button } from '../../packages/ui'
 
 export function EventBanner() {
   const { isLoading, featuredEvent } = useEvents()

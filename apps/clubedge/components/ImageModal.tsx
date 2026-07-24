@@ -1,7 +1,7 @@
 import { cva } from 'class-variance-authority'
 import { Dialog } from 'radix-ui'
 import { useEffect, useState } from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 export type ImageModalProps = RadixProps & Props
 

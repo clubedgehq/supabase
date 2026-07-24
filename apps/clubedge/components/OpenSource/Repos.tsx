@@ -3,7 +3,7 @@ import { Pencil, Users, Users2 } from 'lucide-react'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { cn, LogoLoader } from 'ui'
+import { cn, LogoLoader } from '../../packages/ui'
 
 import RepoCard from './RepoCard'
 

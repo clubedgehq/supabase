@@ -30,7 +30,7 @@ import {
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from 'ui'
+} from '../../packages/ui'
 
 import { ChannelIcon } from './Icons'
 

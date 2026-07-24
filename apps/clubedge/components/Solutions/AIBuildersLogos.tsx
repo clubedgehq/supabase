@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React, { useEffect } from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 import styles from './ai-builders-logos.module.css'
 

@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { Link as LinkIcon } from 'lucide-react'
 import Image from 'next/image'
 import { useEffect, useRef, useState } from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 import { ShieldGlow } from './Shaders/ShieldGlow'
 

@@ -4,7 +4,7 @@ import SectionContainerWithCn from '~/components/Layouts/SectionContainerWithCn'
 import { AnimatePresence, motion, useInView } from 'framer-motion'
 import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
-import { Button } from 'ui'
+import { Button } from '../../packages/ui'
 
 const TERMINAL_LINES = [
   { text: '$ supabase functions new hello-world', delay: 0 },

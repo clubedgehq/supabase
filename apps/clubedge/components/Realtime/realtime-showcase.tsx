@@ -12,7 +12,7 @@ import iframeAnnotationExample from './examples/iframe-annotation-example'
 import logViewerExample from './examples/log-viewer-example'
 import formPresenceExample from './examples/form-presence-example'
 import cursorTrackingExample from './examples/cursor-tracking-example'
-import { Tabs, TabsList, TabsTrigger } from 'ui'
+import { Tabs, TabsList, TabsTrigger } from '../../packages/ui'
 import {
   Users,
   MessageSquare,

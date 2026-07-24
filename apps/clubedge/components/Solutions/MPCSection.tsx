@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 import SectionContainer from '../Layouts/SectionContainer'
 import APISection, { type APIExample } from '../Sections/APISection'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 import { useBreakpoint } from 'common'
 
 import type { FrameworkLinkProps } from 'data/solutions/solutions.utils'

@@ -3,7 +3,7 @@ import { useBreakpoint } from 'common'
 import { ArrowUpRight } from 'lucide-react'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
-import { Button } from 'ui'
+import { Button } from '../../packages/ui'
 
 import Panel from './Panel'
 

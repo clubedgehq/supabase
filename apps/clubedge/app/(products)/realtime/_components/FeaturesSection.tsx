@@ -4,7 +4,7 @@ import SectionContainerWithCn from '~/components/Layouts/SectionContainerWithCn'
 import { motion } from 'framer-motion'
 import { Key } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 const FEATURES = [
   {

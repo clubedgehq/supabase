@@ -1,7 +1,7 @@
 import SectionContainer from '~/components/Layouts/SectionContainer'
 import Examples from 'data/Examples'
 import Link from 'next/link'
-import { Button, cn, IconGitHubSolid } from 'ui'
+import { Button, cn, IconGitHubSolid } from '../../packages/ui'
 
 import ExampleCard from '../ExampleCard'
 import ExamplesMobile from './ExamplesMobile'

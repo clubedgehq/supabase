@@ -1,5 +1,5 @@
 import React from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 type HamburgerButtonProps = {
   toggleFlyOut: Function

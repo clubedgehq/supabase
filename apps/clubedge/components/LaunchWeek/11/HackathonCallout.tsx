@@ -1,5 +1,5 @@
 import React from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 import { TextLink } from 'ui-patterns/TextLink'
 
 const HackathonCallout = ({ className }: { className?: string }) => {

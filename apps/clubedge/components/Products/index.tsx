@@ -10,7 +10,7 @@ import RealtimeVisual from './RealtimeVisual'
 import StorageVisual from './StorageVisual'
 import VectorVisual from './VectorVisual'
 
-import { PRODUCT_MODULES_SHORTNAMES, PRODUCT_SHORTNAMES } from 'shared-data/products'
+import { PRODUCT_MODULES_SHORTNAMES, PRODUCT_SHORTNAMES } from '../../packages/shared-data/products'
 import { useSendTelemetryEvent } from '~/lib/telemetry'
 
 import type { ProductType } from '~/data/MainProducts'

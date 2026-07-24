@@ -4,7 +4,7 @@ import { useBreakpoint } from 'common'
 import { useTheme } from 'next-themes'
 import Image from 'next/image'
 import React, { useState } from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 const PricingComputeAnimation = () => {
   const { resolvedTheme } = useTheme()

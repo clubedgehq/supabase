@@ -15,7 +15,7 @@ import {
   IconTwitterX,
   IconYoutubeSolid,
   Input,
-} from 'ui'
+} from '../../packages/ui'
 import { ThemeToggle } from 'ui-patterns/ThemeToggle'
 
 import useDarkLaunchWeeks from '../../hooks/useDarkLaunchWeeks'

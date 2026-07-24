@@ -11,7 +11,7 @@ import {
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from 'ui'
+} from '../../packages/ui'
 
 import { SITE_ORIGIN } from '@/lib/constants'
 

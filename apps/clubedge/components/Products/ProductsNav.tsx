@@ -1,8 +1,8 @@
 import SectionContainer from '~/components/Layouts/SectionContainer'
 import Link from 'next/link'
 import React from 'react'
-import { PRODUCT_NAMES, products } from 'shared-data/products'
-import { cn } from 'ui'
+import { PRODUCT_NAMES, products } from '../../packages/shared-data/products'
+import { cn } from '../../packages/ui'
 
 interface Props {
   activePage: PRODUCT_NAMES

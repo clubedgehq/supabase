@@ -13,7 +13,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import { useWindowSize } from 'react-use'
 import { A11y, Controller, Navigation } from 'swiper/modules'
 import { Swiper, SwiperClass, SwiperRef, SwiperSlide } from 'swiper/react'
-import { Button, cn } from 'ui'
+import { Button, cn } from '../../packages/ui'
 
 import { mainDays, WeekDayProps } from './data'
 import { DayLink } from './lw15.components'

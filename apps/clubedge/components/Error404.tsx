@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
-import { Button } from 'ui'
+import { Button } from '../../packages/ui'
 
 import DefaultLayout from '@/components/Layouts/Default'
 import SupabaseWordmark from '@/components/Nav/SupabaseWordmark'

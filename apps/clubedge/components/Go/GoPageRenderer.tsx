@@ -1,4 +1,4 @@
-import supabaseLogoIcon from 'common/assets/images/supabase-logo-icon.png'
+import supabaseLogoIcon from '../../packages/common/assets/images/supabase-logo-icon.png'
 import { GoPageRenderer as MarketingPageRenderer } from 'marketing'
 import type { CustomSectionRenderers } from 'marketing'
 import Image from 'next/image'

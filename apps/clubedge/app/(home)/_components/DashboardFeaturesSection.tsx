@@ -4,7 +4,7 @@ import BrowserFrame from '~/components/BrowserFrame'
 import { AnimatePresence, motion, useInView } from 'framer-motion'
 import { useTheme } from 'next-themes'
 import React, { useRef, useState } from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 import SectionContainer from '@/components/Layouts/SectionContainer'
 

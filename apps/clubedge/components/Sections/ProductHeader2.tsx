@@ -1,7 +1,7 @@
 import { CTA } from '~/types/common'
 import Link from 'next/link'
 import React, { Children, type ReactNode } from 'react'
-import { Button, cn } from 'ui'
+import { Button, cn } from '../../packages/ui'
 
 import SectionContainerWithCn from '../Layouts/SectionContainerWithCn'
 import ProductIcon from '../ProductIcon'

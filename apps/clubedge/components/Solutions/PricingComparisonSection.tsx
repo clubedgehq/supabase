@@ -1,6 +1,6 @@
 import { Check, Minus } from 'lucide-react'
 import React, { type FC, type ReactNode } from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 import { TextLink } from 'ui-patterns/TextLink'
 
 import SectionContainer from '@/components/Layouts/SectionContainer'

@@ -1,7 +1,7 @@
 import React, { FC, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import { WeekDayProps, mainDays } from './data'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 import { isBrowser } from 'common'
 
 import SectionContainer from '~/components/Layouts/SectionContainer'

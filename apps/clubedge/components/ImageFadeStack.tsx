@@ -3,7 +3,7 @@
 import { PauseCircle, PlayCircle } from 'lucide-react'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 interface ImageFadeStackProps {
   autoplay?: boolean

@@ -4,7 +4,7 @@ import SectionContainerWithCn from '~/components/Layouts/SectionContainerWithCn'
 import { AnimatePresence, motion, useInView } from 'framer-motion'
 import { Code, FileDown, Heart, MousePointerClick } from 'lucide-react'
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 const ICONS = { Code, MousePointerClick, Heart, FileDown } as const
 

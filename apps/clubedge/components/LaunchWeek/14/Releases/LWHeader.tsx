@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 import SectionContainer from '~/components/Layouts/SectionContainer'
 
 const LWHeader = ({ className }: { className?: string }) => {

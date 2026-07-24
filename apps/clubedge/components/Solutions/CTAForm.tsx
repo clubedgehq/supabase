@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 import { TextLink } from 'ui-patterns/TextLink'
 
 import TalkToPartnershipTeamForm from '@/components/Forms/TalkToPartnershipTeamForm'

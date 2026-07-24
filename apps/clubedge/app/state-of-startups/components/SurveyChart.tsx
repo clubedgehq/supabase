@@ -3,7 +3,7 @@
 import CodeBlock from '~/components/CodeBlock/CodeBlock'
 import { motion } from 'framer-motion'
 import { useMemo, useState } from 'react'
-import { Button } from 'ui'
+import { Button } from '../../packages/ui'
 
 import type { Aggregation, SurveyFilters } from '../lib/survey-key'
 import { distributionToBars, getDistribution, mergeFilters } from '../lib/survey-keys'

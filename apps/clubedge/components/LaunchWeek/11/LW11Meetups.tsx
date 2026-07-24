@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 import useConfData from '../hooks/use-conf-data'
 import { SupabaseClient } from '@supabase/supabase-js'
 import { ArrowRight } from 'lucide-react'

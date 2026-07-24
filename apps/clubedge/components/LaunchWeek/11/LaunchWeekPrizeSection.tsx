@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 import LabelBadge from './LabelBadge'
 import LaunchWeekPrizeCard from './LaunchWeekPrizeCard'

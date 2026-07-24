@@ -1,7 +1,7 @@
 import { PlayIcon, TruckIcon, XIcon } from '@heroicons/react/outline'
 import Image from 'next/image'
 import { useState } from 'react'
-import { Badge, Dialog, DialogContent, DialogHeader, DialogSection, DialogTitle } from 'ui'
+import { Badge, Dialog, DialogContent, DialogHeader, DialogSection, DialogTitle } from '../../packages/ui'
 
 import { Article, Product, WeekDayProps } from '../../types'
 import _days from './../days.json'

@@ -1,7 +1,7 @@
 import SectionContainer from '~/components/Layouts/SectionContainer'
 import type { IconType } from '~/data/solutions/solutions.utils'
 import React from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 interface Feature {
   id: string

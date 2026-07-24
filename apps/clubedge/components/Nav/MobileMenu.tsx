@@ -7,7 +7,7 @@ import { ChevronRight } from 'lucide-react'
 import Link from 'next/link'
 import { useEffect } from 'react'
 import type { Dispatch, SetStateAction } from 'react'
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger, Button, cn } from 'ui'
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger, Button, cn } from '../../packages/ui'
 import { TextLink } from 'ui-patterns/TextLink'
 
 import MenuItem from './MenuItem'

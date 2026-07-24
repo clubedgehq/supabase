@@ -5,7 +5,7 @@ import { AnimatePresence, motion, useInView } from 'framer-motion'
 import { ChevronDown, Globe, KeyRound, LogIn, UserPlus } from 'lucide-react'
 import Link from 'next/link'
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 const ICONS = { UserPlus, LogIn, Globe, KeyRound } as const
 

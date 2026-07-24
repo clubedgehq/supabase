@@ -1,4 +1,4 @@
-import { Button } from 'ui'
+import { Button } from '../../packages/ui'
 import Panel from '../Panel'
 import Link from 'next/link'
 import { ArrowUpRight } from 'lucide-react'

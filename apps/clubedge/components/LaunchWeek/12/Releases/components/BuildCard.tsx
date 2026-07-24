@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Tilt from 'vanilla-tilt'
 import { useWindowSize } from 'react-use'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 import { useBreakpoint } from 'common'
 
 import { AdventDay } from '../data'

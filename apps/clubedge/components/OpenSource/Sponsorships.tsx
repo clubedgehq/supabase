@@ -1,6 +1,6 @@
 import { ArrowUpRight } from 'lucide-react'
 import Link from 'next/link'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 
 import Panel from '~/components/Panel'
 

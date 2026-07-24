@@ -2,7 +2,7 @@
 
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect, useRef, useState } from 'react'
-import { cn } from 'ui'
+import { cn } from '../../packages/ui'
 import { useBreakpoint } from 'common'
 import { AnimatedGridBackground } from '../AnimatedGridBackground'
 
