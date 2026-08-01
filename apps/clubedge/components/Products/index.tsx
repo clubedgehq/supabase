@@ -110,19 +110,6 @@ const Products: React.FC<Props> = (props) => {
         subtitle={props.products['vector'].description}
         onClick={() => sendTelemetryEvent(PRODUCT_MODULES_SHORTNAMES.VECTOR)}
       />
-              </svg>
-
-              <span>OpenAI</span>
-            </li>
-            <li className="flex items-center gap-2">
-              <svg
-                width="24"
-                height="25"
-                viewBox="0 0 24 25"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <title>Hugging Face logo</title>
                 <path
                   d="M14.5063 9.99415C14.6241 10.0358 14.7118 10.1627 14.7951 10.2834C14.9078 10.4466 15.0127 10.5984 15.1736 10.5128C15.7037 10.2309 15.905 9.57264 15.6231 9.04248C15.3412 8.51234 14.6829 8.31108 14.1527 8.59297C13.6226 8.87486 13.4213 9.53316 13.7032 10.0633C13.7778 10.2036 13.9432 10.1374 14.1179 10.0675C14.2548 10.0127 14.3974 9.95571 14.5063 9.99415Z"
                   fill="currentColor"
