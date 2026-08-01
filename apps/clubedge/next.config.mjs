@@ -51,6 +51,7 @@ const nextConfig = {
     'api-types',
     'marketing',
     // needed to make the octokit packages work in /changelog
+    '@octokit/core',
     '@octokit/plugin-paginate-graphql',
   ],
 
