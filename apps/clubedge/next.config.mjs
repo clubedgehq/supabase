@@ -53,6 +53,9 @@ const nextConfig = {
     // needed to make the octokit packages work in /changelog
     '@octokit/core',
     '@octokit/plugin-paginate-graphql',
+    '@octokit/graphql',
+    '@octokit/rest',
+    '@octokit/auth-app',
   ],
 
   /**
