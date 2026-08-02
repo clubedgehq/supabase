@@ -1,9 +1,14 @@
-import { createAppAuth } from '@octokit/auth-app'
-import { Octokit } from '@octokit/core'
-import { paginateGraphql } from '@octokit/plugin-paginate-graphql'
 import dayjs from 'dayjs'
 
 import { changelogEntrySlug, discussionDisplayDate } from './changelog.utils'
+
+// Dynamic imports for ESM packages to avoid bundling issues
+const getOctokitModules = async () => {
+  const { createAppAuth } = await import('@octokit/auth-app')
+  const { Octokit } = await import('@octokit/core')
+  const { paginateGraphql } = await import('@octokit/plugin-paginate-graphql')
+  return { createAppAuth, Octokit, paginateGraphql }
+}
 
 export const CHANGELOG_CATEGORY_ID = 'DIC_kwDODMpXOc4CAFUr'
 
@@ -30,7 +35,8 @@ export type ChangelogDiscussionMetadata = {
   }
 }
 
-export function createChangelogOctokit() {
+export async function createChangelogOctokit() {
+  const { createAppAuth, Octokit, paginateGraphql } = await getOctokitModules()
   const ExtendedOctokit = Octokit.plugin(paginateGraphql)
   return new ExtendedOctokit({
     authStrategy: createAppAuth,
@@ -158,7 +164,7 @@ export async function fetchChangelogDiscussionByNumber(
 }
 
 export async function getChangelogTimelineSortedIndex(): Promise<ChangelogTimelineIndexItem[]> {
-  const octokit = createChangelogOctokit()
+  const octokit = await createChangelogOctokit()
   const raw = await fetchAllChangelogDiscussionMetadata(
     octokit,
     'supabase',

@@ -94,7 +94,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
   if (!Number.isFinite(number) || number <= 0) return { notFound: true }
 
   try {
-    const octokit = createChangelogOctokit()
+    const octokit = await createChangelogOctokit()
     const discussion = await fetchChangelogDiscussionByNumber(
       octokit,
       'supabase',

@@ -21,7 +21,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   }
 
   try {
-    const octokit = createChangelogOctokit()
+    const octokit = await createChangelogOctokit()
     const discussion = await fetchChangelogDiscussionByNumber(
       octokit,
       'supabase',

@@ -62,7 +62,7 @@ export const getServerSideProps: GetServerSideProps<PageProps> = async ({ res })
     const firstMeta = visible.slice(0, FEATURED_COUNT)
     const restIndex = visible.slice(FEATURED_COUNT)
 
-    const octokit = createChangelogOctokit()
+    const octokit = await createChangelogOctokit()
     const featuredResults = await Promise.all(
       firstMeta.map(
         async (meta): Promise<FeaturedEntry | { failedMeta: ChangelogTimelineIndexItem }> => {
