@@ -55,6 +55,13 @@ type PageProps = {
 }
 
 export const getServerSideProps: GetServerSideProps<PageProps> = async ({ res }) => {
+  // Skip changelog if GitHub env vars are not configured
+  if (!process.env.GITHUB_CHANGELOG_APP_ID || !process.env.GITHUB_CHANGELOG_APP_INSTALLATION_ID || !process.env.GITHUB_CHANGELOG_APP_PRIVATE_KEY) {
+    return {
+      notFound: true,
+    }
+  }
+
   try {
     const changelogIndex = await getChangelogTimelineSortedIndex()
     const visible = changelogIndex.filter((item) => !item.title.includes('[d]'))

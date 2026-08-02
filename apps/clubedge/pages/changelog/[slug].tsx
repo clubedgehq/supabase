@@ -87,6 +87,13 @@ export const getStaticPaths: GetStaticPaths = async () => {
 }
 
 export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
+  // Skip changelog if GitHub env vars are not configured
+  if (!process.env.GITHUB_CHANGELOG_APP_ID || !process.env.GITHUB_CHANGELOG_APP_INSTALLATION_ID || !process.env.GITHUB_CHANGELOG_APP_PRIVATE_KEY) {
+    return {
+      notFound: true,
+    }
+  }
+
   const raw = params?.slug
   const slugStr = Array.isArray(raw) ? raw[0] : (raw ?? '')
   // The slug always starts with the numeric discussion number.

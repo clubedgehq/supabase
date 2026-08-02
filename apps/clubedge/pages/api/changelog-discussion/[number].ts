@@ -1,13 +1,20 @@
-import {
-  CHANGELOG_CATEGORY_ID,
-  createChangelogOctokit,
-  fetchChangelogDiscussionByNumber,
-} from '~/lib/changelog-github'
-import { discussionDisplayDate } from '~/lib/changelog.utils'
-import { mdxSerialize } from '~/lib/mdx/mdxSerialize'
 import type { NextApiRequest, NextApiResponse } from 'next'
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
+  // Changelog feature requires GitHub environment variables
+  if (!process.env.GITHUB_CHANGELOG_APP_ID || !process.env.GITHUB_CHANGELOG_APP_INSTALLATION_ID || !process.env.GITHUB_CHANGELOG_APP_PRIVATE_KEY) {
+    return res.status(503).json({ error: 'Changelog feature is not configured' })
+  }
+
+  // Dynamically import octokit only if env vars are present
+  const {
+    CHANGELOG_CATEGORY_ID,
+    createChangelogOctokit,
+    fetchChangelogDiscussionByNumber,
+  } = await import('~/lib/changelog-github')
+  const { discussionDisplayDate } = await import('~/lib/changelog.utils')
+  const { mdxSerialize } = await import('~/lib/mdx/mdxSerialize')
+
   if (req.method !== 'GET') {
     res.setHeader('Allow', 'GET')
     return res.status(405).json({ error: 'Method not allowed' })
