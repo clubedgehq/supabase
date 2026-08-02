@@ -85,9 +85,7 @@ aws s3 sync "$PUBLIC_DIR" "s3://$BUCKET_NAME/$SITE_NAME/${VERCEL_GIT_COMMIT_SHA:
 
 echo -e "${GREEN}Upload completed successfully!${NC}"
 
-# Clean up local static files so we prevent a double upload
-echo -e "${YELLOW}Cleaning up local static files...${NC}"
-rm -rf "$STATIC_DIR"/*
-echo -e "${GREEN}Local static files cleaned up${NC}"
+# Note: We do NOT delete local static files here. Vercel's deployment tracing needs them
+# for generating manifests and finalizing the build. The CDN copy is sufficient for serving.
 
 # We still keep the public dir, as Next.js does not officially support serving the public files via CDN
