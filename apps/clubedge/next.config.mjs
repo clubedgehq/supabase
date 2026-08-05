@@ -25,6 +25,7 @@ const withMDX = nextMdx({
       remarkGfm,
     ],
     rehypePlugins: [rehypeSlug],
+    // This is required for `MDXProvider` component
     providerImportSource: '@mdx-js/react',
   },
 })
