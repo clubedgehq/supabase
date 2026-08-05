@@ -215,6 +215,12 @@ const nextConfig = {
     // We are already running linting via GH action, this will skip linting during production build on Vercel.
     ignoreDuringBuilds: true,
   },
+  experimental: {
+    // Disable webpack build worker to fix race condition on Vercel where client reference manifests
+    // are not flushed before Vercel traces them. This is a known issue with Next.js 15 + large monorepos.
+    // Can be removed once stability is confirmed.
+    webpackBuildWorker: false,
+  },
 }
 
 // next.config.js.
