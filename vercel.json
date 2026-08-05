@@ -1,7 +1,7 @@
 {
   "buildCommand": "cd apps/clubedge && pnpm build",
   "devCommand": "cd apps/clubedge && pnpm dev",
-  "installCommand": "pnpm install --frozen-lockfile --filter=clubedge --filter='...'",
+  "installCommand": "pnpm install --frozen-lockfile",
   "outputDirectory": "apps/clubedge/.next",
   "framework": "nextjs"
 }
